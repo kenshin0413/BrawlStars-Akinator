@@ -1,0 +1,5388 @@
+{
+  "schemaVersion": 6,
+  "verifiedAt": "2026-09-03",
+  "sources": [
+    {
+      "id": "supercell-aug-2026",
+      "title": "Supercell公式 2026年8月リリース情報",
+      "url": "https://supercell.com/en/games/brawlstars/blog/release-notes/release-notes-august-2026/",
+      "kind": "official",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "supercell-june-2026",
+      "title": "Supercell公式 2026年6月リリース情報",
+      "url": "https://supercell.com/en/games/brawlstars/ja/blog/release-notes/2026%E5%B9%B4-6%E6%9C%88%E3%81%AE-%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9-%E6%83%85%E5%A0%B1/",
+      "kind": "official",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "supercell-april-2026",
+      "title": "Supercell公式 2026年4月リリース情報",
+      "url": "https://supercell.com/en/games/brawlstars/ja/blog/release-notes/2026%E5%B9%B4-4%E6%9C%88%E3%81%AE-%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9-%E6%83%85%E5%A0%B1/",
+      "kind": "official",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "brawlapi",
+      "title": "ゲームデータ公開ミラー",
+      "url": "https://brawlapi.com/",
+      "kind": "communityGameData",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "brawlapi-game-csv",
+      "title": "ブロスタのゲームCSV（キャラクター／スキル）",
+      "url": "https://brawlapi.com/#game-csv",
+      "kind": "communityGameData",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pierce-mechanics",
+      "title": "ピアースの能力仕様確認",
+      "url": "https://brawlstars.fandom.com/wiki/Pierce",
+      "kind": "communityVerification",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "brawl-stars-wiki-infobox",
+      "title": "ブロスタWiki キャラインフォボックス",
+      "url": "https://brawlstars.fandom.com/wiki/Category:Brawlers",
+      "kind": "communityVerification",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "gamewith-jp-brawler-list",
+      "title": "GameWith ブロスタ 全キャラ一覧・個別ステータス",
+      "url": "https://gamewith.jp/brawlstars-jp/444455",
+      "kind": "communityVerification",
+      "checkedAt": "2026-09-02"
+    },
+    {
+      "id": "supercell-ash-2021",
+      "title": "Supercell公式『遠い昔のおとぎ話』アップデート",
+      "url": "https://supercell.com/en/games/brawlstars/ja/blog/game-updates/202108update-jp/",
+      "kind": "official",
+      "checkedAt": "2026-09-02"
+    },
+    {
+      "id": "supercell-rumble-jungle-ja",
+      "title": "Supercell公式日本語『ジャングルトラブル』アップデート",
+      "url": "https://supercell.com/en/games/brawlstars/ja/blog/release-notes/rumblejungle-update-jp/",
+      "kind": "official",
+      "checkedAt": "2026-09-02"
+    }
+  ],
+  "brawlers": [
+    {
+      "id": 16000108,
+      "name": "ウェンディ",
+      "description": "聡明で昔気質な科学者であるウェンディは、怪しい企業のラボで働く日々に嫌気がさし、退職を決意したらしい。その後は環境に優しい街「ウィンドストック」を作るために、どこかに旅立って行ったという話だ。",
+      "rarity": "ウルトラレア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000108.png",
+      "gadgets": [
+        {
+          "name": "風力発電",
+          "description": "乗り物からブーストを噴射し、ジャンプで短い距離を移動する。"
+        },
+        {
+          "name": "グリーングレネード",
+          "description": "突風を引き起こすグレネードを投げて、命中した敵に一時的なスローダウン効果と回復阻害効果を付与する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "スローダウンシールド",
+          "description": "シールド発生装置の範囲内の敵にスローダウン効果を付与する。"
+        },
+        {
+          "name": "ソーラーシールド",
+          "description": "シールド発生装置のHPが<c00cc00><!card.value.scaleToLevel></c>増加する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 770,
+      "attackRange": 24,
+      "reloadTimeMs": 1450,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 4000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000107,
+      "name": "ノリ",
+      "description": "ノリは、両親であるケンジとカゼにも負けない偉大な戦士だ。スターパーク出身のキャラクター第1号でもあり、生まれながらにして強大な力を授かっている。料理の腕はそこそこ止まりらしい。",
+      "rarity": "レジェンドレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000107.png",
+      "gadgets": [
+        {
+          "name": "ファスト寿司",
+          "description": "最大<c00cc00><!card.accessory.value2></c>匹の魚を食べ、食べた魚の数x<c00cc00><!card.accessory.value1></c>のHPを回復する。"
+        },
+        {
+          "name": "投げ網漁",
+          "description": "指定した方向に投網を放り投げる。最初に命中したキャラクターは<c00cc00><!card.accessory.skill.damage.scaleToLevel></c>ダメージを受け、<c00cc00><!card.character.component[0].statuseffect[0].duration.ticksasseconds></c>秒間にわたってその場から動けなくなる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "爆釣",
+          "description": "敵キャラクターに必殺技が命中した際に魚<c00cc00><!card.value1></c>匹を獲得する。"
+        },
+        {
+          "name": "母の血",
+          "description": "通常攻撃が敵に命中した際に、<c00cc00><!card.statuseffect.duration.ticksasseconds></c>秒間にわたりスピードが<c00cc00><!card.statuseffect.speedboostpercent>％</c>上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 27,
+      "reloadTimeMs": 100,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "溜めて攻撃"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7000,
+      "ammoCount": 1,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000106,
+      "name": "ボルト",
+      "description": "ボルトは人気シリーズ「バトルバンパーズ」から誕生した巨大なおもちゃだ。あちこち転がって戦うよう設計された彼だが、いつかレーシングカーになって限界までかっ飛ばすことを夢見ている。\\n彼の夢を邪魔する者は、容赦なくふっ飛ばされてしまうぞ！",
+      "rarity": "ハイパーレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000106.png",
+      "gadgets": [
+        {
+          "name": "ロケットレース",
+          "description": "目標地点に向かって飛び掛かり、ジャンプ時と着地時に周囲の敵にノックバック効果と少量のダメージを与える。"
+        },
+        {
+          "name": "ロケット燃料",
+          "description": "地形を破壊する巨大なロケットを発射し、命中した敵にダメージを与える。"
+        },
+        {
+          "name": "オイル交換",
+          "description": "その時点のスピードに応じて、<c00cc00><VALUE1></c>～<c00cc00><VALUE2></c>HPのシールドを獲得する。"
+        },
+        {
+          "name": "バウンドボール",
+          "description": "狙った位置にジャンプし、範囲ダメージを与える。障害物を破壊することもできるが、着地時に加速はリセットされる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ナイスシュート",
+          "description": "最大スピードでの攻撃時に、敵を上に吹っ飛ばす。"
+        },
+        {
+          "name": "アンビリーバボール",
+          "description": "必殺技の発動後、<c00cc00><!card.statusEffect.duration.ticksAsSeconds></c>秒にわたって状態異常が無効になる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 540,
+      "attackRange": 0,
+      "reloadTimeMs": 2200,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10000,
+      "ammoCount": 2,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000105,
+      "name": "スターノヴァ",
+      "description": "自分をアニメキャラクター「スターノヴァ」だと思い込んでいるコスプレイヤーだ。困ったことに、現実世界でも巨大な剣を振り回せばすべて解決すると思っている。",
+      "rarity": "ウルトラレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000105.png",
+      "gadgets": [
+        {
+          "name": "ふわふわタイム",
+          "description": "反重力装置を設置し、エリア内に入ったチームメイトをふわふわと浮かび上がらせる。"
+        },
+        {
+          "name": "愛と正義のシャイニングスター",
+          "description": "敵にダメージを与え、チームメイトを<c00cc00><!card.accessory.skill.damage.scaleStatToLevel></c>回復するエネルギー弾を発射する。弾が命中する前であれば、その位置へワープできる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "パワーレベル：無限大",
+          "description": "変身中、敵キャラクターに攻撃をヒットさせるたびに自身の与ダメージが<c00cc00><!card.statuseffect.damageboostpercent>％</c>上昇する（最大<c00cc00><!card.statuseffect.damageboostpercent.scalecardvalue2>％</c>まで）。"
+        },
+        {
+          "name": "ふしぎのスターテクニック",
+          "description": "通常攻撃でチームメイトを<c00cc00><!card.character.weaponSkill.damage.scaleStatToLevel.scaleByCardProjectileHealOwnPercent></c>回復する。回復量に応じて一定量の必殺技がチャージされる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 17,
+      "reloadTimeMs": 1600,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000104,
+      "name": "ダミアン",
+      "description": "騒ぐことが大好きなダミアンは、弟のドラコとバンドのフロントマンを務めているが、音楽が流れると怒りに飲み込まれ、視界に入るものを片っ端から破壊する。ライブが終わる頃には、ステージ周辺はいつも壊滅状態だ... もちろん他のキャラクターも例外ではない。",
+      "rarity": "ウルトラレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000104.png",
+      "gadgets": [
+        {
+          "name": "超自然回復",
+          "description": "狙った位置にマイクを投げ、最初に拾ったチームメイトのHPを<c00cc00><!card.accessory.skill.spawneditem.statuseffectally.healing.scaletolevel></c>回復する。"
+        },
+        {
+          "name": "ウォール・オブ・デスメタル",
+          "description": "一定時間、破壊できないアンプの壁を出現させる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "クラウドキル",
+          "description": "ターゲットを壁にぶつけると、<c00cc00><!card.value1.ticksasseconds></c>秒間気絶させる。"
+        },
+        {
+          "name": "俗悪拳",
+          "description": "必殺技の発動中、燃える拳で敵を焼き焦がす。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 770,
+      "attackRange": 8,
+      "reloadTimeMs": 1200,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 11200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000103,
+      "name": "ナジア",
+      "description": "ピラミッド・クエストのゲーム難易度を上げるべく、フィンクスが雇った従業員。しかし本人は優しい性格のため、むしろフィンクスのイタズラの被害者を助けているようだ。",
+      "rarity": "ウルトラレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000103.png",
+      "gadgets": [
+        {
+          "name": "毒だまり",
+          "description": "ナジアの毒に侵されたキャラクターが、<c00cc00><!card.character.component.statusEffect[3].duration.ticksAsSeconds></c>秒間毒のたまり場を生成する。"
+        },
+        {
+          "name": "ナジアのつぼ",
+          "description": "ナジアがつぼに身を潜める。つぼが破壊されると近くの敵をノックバックする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ポイズンバックアップ",
+          "description": "ナジアの毒に侵されたキャラクターが倒された際に、その場にヘビを出現させる。"
+        },
+        {
+          "name": "ヴェノム",
+          "description": "毒ダメージが敵キャラクターの残りHPの割合に応じて増加する。HPが満タンの場合、最大<c00cc00><!card.character.component.trait[1].statusEffect.damage.scaleToLevel></c>の追加ダメージを与える。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 770,
+      "attackRange": 18,
+      "reloadTimeMs": 800,
+      "isThrower": true,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6800,
+      "ammoCount": 1,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000102,
+      "name": "シリウス",
+      "description": "能力もその素性も謎多きシリウス。かつてスターパークの初代人気キャラクターだった彼だが、噂によれば卑劣な手によってパークから追放されたとか... そして今、彼の復讐劇が始まる！",
+      "rarity": "ウルトラレジェンドレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000102.png",
+      "gadgets": [
+        {
+          "name": "新星誕生",
+          "description": "弾丸を発射し、ヒットするとシャドーが召喚される。命中した敵は<c00cc00><!card.accessory.skill.projectile.statusEffectEnemy.duration.ticksAsSeconds></c>秒間にわたって<c00cc00><!card.accessory.skill.projectile.statusEffectEnemy.speedReducePercent>％</c>スローダウンする。"
+        },
+        {
+          "name": "シャドーマスター",
+          "description": "シャドーをシリウスのもとへ呼び戻し、シャドーの最大HPの<c00cc00><!card.accessory.customValue1>％</c>分、シャドーのHPを回復する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "夕闇ランナー",
+          "description": "シャドーの移動速度が<c00cc00><!card.statusEffect.speedBoostPercent>％</c>上昇する。"
+        },
+        {
+          "name": "漆黒スター",
+          "description": "シャドーストライクのヒット1回で、シャドーキャラのゲージがヒット2回分溜まる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 22,
+      "reloadTimeMs": 1600,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": true
+    },
+    {
+      "id": 16000101,
+      "name": "グローウィー",
+      "description": "グローウィーはスターパーク水族館で働く海洋生物学者だ。海の生き物をこよなく愛し、その素晴らしさを一人でも多くの来館者に伝えようとしている。\\n見た目はちょっと怪しいけれど、実はいい人... なのかもしれない。",
+      "rarity": "ウルトラレア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000101.png",
+      "gadgets": [
+        {
+          "name": "スリップレスキュー",
+          "description": "狙った方向に向かってダッシュし、停止時に自分と周りの味方のHPを<c00cc00><!card.accessory.skill.areaEffectObject2.statusEffect.healingTotal.scaleToLevel></c>回復する。"
+        },
+        {
+          "name": "さらなる光あれ！",
+          "description": "光の糸の効果がブーストされ、ダメージと回復量が<c00cc00><VALUE1></c>秒間倍増する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "バイオエコシステム",
+          "description": "光の糸で敵1体と味方1体を同時に繋いでいる際、敵の与ダメージが<c00cc00><VALUE1>％</c>減少し、味方の与ダメージが<c00cc00><VALUE2>％</c>増加する。"
+        },
+        {
+          "name": "寄生",
+          "description": "光の糸で敵を繋いでいる際、与えたダメージの<c00cc00><VALUE1>％</c>分、自身のHPを回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 770,
+      "attackRange": 22,
+      "reloadTimeMs": 1700,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000100,
+      "name": "ジジ",
+      "description": "見た者を不安な気持ちにさせる呪いの操り人形ジジと、彼女を操る魔術師の手袋は一心同体。ジュジュの骨董品店を訪れれば、本棚の隙間で踊る彼女の姿が見られるかもしれない。",
+      "rarity": "ウルトラレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000100.png",
+      "gadgets": [
+        {
+          "name": "伸びる操り糸",
+          "description": "必殺技のチャージ判定範囲が拡大する。"
+        },
+        {
+          "name": "消失マジック",
+          "description": "<c00cc00><VALUE1></c>秒間、自身と味方を透明化するエリアを作り出す。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "プリエガード",
+          "description": "<c00cc00><VALUE2></c>秒間ダメージを受けずにいると、必殺技のチャージ率が<c00cc00><VALUE1></c>％上昇する。"
+        },
+        {
+          "name": "救いの手",
+          "description": "必殺技の溜めの後に<c00cc00><VALUE1></c>回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 10,
+      "reloadTimeMs": 220,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8200,
+      "ammoCount": 10,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000099,
+      "name": "ピアス",
+      "description": "プールの監視員といえば命の守り人。だがピアスは人を助ける代わりに引き金を引く。完全にライフガード失格だ。\\nおしっこでプールの汚染レベルが臨界点に達したとき、バズに決まって「掃除」を依頼される。",
+      "rarity": "レジェンドレア",
+      "className": "スナイパー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000099.png",
+      "gadgets": [
+        {
+          "name": "無限マグナム",
+          "description": "<c00cc00><VALUE1></c>発分の弾をリロードし、自分のそばに弾薬を出現させる。"
+        },
+        {
+          "name": "スナイパーは二度死ぬ",
+          "description": "弾薬をすべて回収し、弾薬1つにつき<c00cc00><VALUE1></c>HP分のシールドを獲得する。同時に、近くの敵をノックバックする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "スイミング：インポッシブル",
+          "description": "最後の弾丸が敵の移動速度を<c00cc00><VALUE1>％</c>低下させる。"
+        },
+        {
+          "name": "スライディング狙撃",
+          "description": "弾薬の回収後、一時的に移動速度が<c00cc00><VALUE1>％</c>上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "marksman",
+      "movementSpeed": 720,
+      "attackRange": 30,
+      "reloadTimeMs": 3000,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "超低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000098,
+      "name": "ジギー",
+      "description": "電気を自在に操ることができるジギーは、「イリュージョニスト」として世界にその名を馳せている。エラそうな態度は鼻につくが、決して安っぽいトリックではないので注意。",
+      "rarity": "ウルトラレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000098.png",
+      "gadgets": [
+        {
+          "name": "エレクトロシャッフル",
+          "description": "<c00cc00><VALUE1></c>秒の間、一番近くの敵に毎秒雷を落とす。この攻撃は弾丸を消費しない。"
+        },
+        {
+          "name": "フラッシュムーブ",
+          "description": "次の通常攻撃の落下地点にテレポートする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "サンダートラップ",
+          "description": "必殺技を受けた敵は、移動速度が<c00cc00><VALUE2></c>秒間にわたって<c00cc00><VALUE3>％</c>低下する。"
+        },
+        {
+          "name": "ザ・グレート・ジギー",
+          "description": "通常攻撃が命中すると、次の通常攻撃が<c00cc00><VALUE1>％</c>強化される。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 770,
+      "attackRange": 22,
+      "reloadTimeMs": 1800,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000097,
+      "name": "ミナ",
+      "description": "ミナは、カポエイラを取り入れたブレイクダンスを得意とする正真正銘の「Bガール」だ。スケーターズビートでは、オーリーと一緒にミックステープに合わせて新技の練習をしている姿が見られるぞ！",
+      "rarity": "ウルトラレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000097.png",
+      "gadgets": [
+        {
+          "name": "ウィンドミル",
+          "description": "風のバリアを展開し、<c00cc00><VALUE1></c>秒間にわたって発射物をブロックする。"
+        },
+        {
+          "name": "カポバック",
+          "description": "必殺技が敵に命中すると即座に再チャージされる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "リズムヒーリング",
+          "description": "コンボ攻撃の3段階目を命中させると、与ダメージの<c00cc00><VALUE1>％</c>分、自身のHPを回復する。"
+        },
+        {
+          "name": "吹き飛ばし",
+          "description": "必殺技で敵をその場に釘付けにする。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 770,
+      "attackRange": 24,
+      "reloadTimeMs": 1400,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000096,
+      "name": "トランク",
+      "description": "この木、どこか不気味で不自然だ。実は超高知能なアリ軍団が中から機械の木を操っている... というのは考えすぎか...",
+      "rarity": "ハイパーレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000096.png",
+      "gadgets": [
+        {
+          "name": "女王の命令には一理アリ",
+          "description": "アリを一瞬で広範囲に拡散する。"
+        },
+        {
+          "name": "アリがたき幸せ",
+          "description": "<c00cc00><VALUE1></c>秒以内に受けた最初のダメージを回復に変換する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "固い守りには秘訣アリ",
+          "description": "アリが被ダメージを<c00cc00><VALUE1>％</c>軽減するようになる。"
+        },
+        {
+          "name": "情報戦を制すれば勝機アリ",
+          "description": "アリが見えない敵を可視化する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 770,
+      "attackRange": 10,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000095,
+      "name": "アリー",
+      "description": "アリーは愛の沼で暮らす内気な機械工だ。普段は手を油まみれにしながら修理に勤しんでいるが、その手が伸びる先が必ずしも機械だけとは限らない。時には物陰からキャラクターに忍び寄ることも... 夜道で不気味な音が聞こえたら、アリーがこっそり挨拶しているのかも？",
+      "rarity": "ウルトラレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000095.png",
+      "gadgets": [
+        {
+          "name": "冷厳なセルフケア",
+          "description": "次の通常攻撃で与えたダメージの<c00cc00><VALUE1>％</c>分、自身を回復する。"
+        },
+        {
+          "name": "冷血な性格",
+          "description": "<c00cc00><VALUE2></c>秒間アリーが激怒状態になる。敵が見えているときのみ発動可能。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "冷静な機械工",
+          "description": "激怒状態のとき、戦闘離脱後からわずか<c00cc00><VALUE1></c>秒で回復が始まる。"
+        },
+        {
+          "name": "冷徹な追跡者",
+          "description": "激怒状態のとき、リロード速度が<c00cc00><VALUE1>％</c>上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 770,
+      "attackRange": 8,
+      "reloadTimeMs": 2100,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000094,
+      "name": "カゼ",
+      "description": "「人間兵器」として両親に育てられたカゼ。しかし、それは彼女の望む生き方ではなかった。ケンジと共にスターパークへ逃れ、ようやく自分らしい人生を歩み始めることができたが、心の葛藤はまだ消えていない。しとやかな芸者と冷酷な忍... 2つの生き様の狭間で揺れ動いている。",
+      "rarity": "レジェンドレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000094.png",
+      "gadgets": [
+        {
+          "name": "変装術・甲",
+          "description": "忍者モードに切り替わり、<c00cc00><VALUE2></c>秒間にわたって移動速度が<c00cc00><VALUE1>％</c>上昇する。"
+        },
+        {
+          "name": "変装術・乙",
+          "description": "忍者モードに切り替わり、短時間透明になる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "絶技「封脚印火」",
+          "description": "クリティカルスポットで攻撃した敵を、<c00cc00><VALUE2></c>秒間にわたって<c00cc00><VALUE1>％</c>スローダウンさせる。"
+        },
+        {
+          "name": "秘技「陰得陽奪」",
+          "description": "必殺技に巻き込まれた敵の弾薬を<c00cc00><VALUE1>％</c>減らす。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 8,
+      "reloadTimeMs": 1000,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000093,
+      "name": "ジェヨン",
+      "description": "昼間は平凡なサラリーマンだが、夜になると「カラオケの神」になるらしい。あくまで自称なので、本当の歌唱力は定かではない...",
+      "rarity": "ウルトラレア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000093.png",
+      "gadgets": [
+        {
+          "name": "企業戦士に休息なし",
+          "description": "範囲ダメージを与えた後、<c00cc00><VALUE1></c>秒間にわたって通常攻撃のダメージを上昇させる。"
+        },
+        {
+          "name": "事務作業は効率が命",
+          "description": "周囲の敵をスローダウンさせる。さらに<c00cc00><VALUE1></c>秒間にわたり、通常攻撃時にスローダウン効果のある書類を落とすようになる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "集団は個よりも強し",
+          "description": "チームメイトが近くにいるとき、範囲内の味方1体につき自身の移動速度が<c00cc00><!card.statuseffect.speedboostpercent>％</c>上昇する。"
+        },
+        {
+          "name": "押しの強さで押しきれ",
+          "description": "貫通した敵1体につき、通常攻撃のダメージが<c00cc00><VALUE1>％</c>上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 770,
+      "attackRange": 25,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": true
+    },
+    {
+      "id": 16000092,
+      "name": "フィンクス",
+      "description": "フィンクスはスターパークの脱出ゲームの管理人。本来はお客さんを助けるのが仕事だが、時間を操る能力でイタズラばかりしている。ちなみに、大の猫好きだ。",
+      "rarity": "ウルトラレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000092.png",
+      "gadgets": [
+        {
+          "name": "バックトゥザパスト",
+          "description": "時間を巻き戻して、自分の位置と弾薬数を<c00cc00><VALUE1></c>秒前の状態に戻す。"
+        },
+        {
+          "name": "ノーエスケープ",
+          "description": "次の通常攻撃の弾が、敵を<c00cc00><VALUE1></c>秒間にわたって凍らせる。凍った敵は一切の行動を封じられるが、ダメージも受けなくなる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ヒエログリフ",
+          "description": "通常攻撃が命中した敵キャラクターのリロード速度を、<c00cc00><VALUE2></c>秒にわたって<c00cc00><VALUE1>％</c>低下させる。"
+        },
+        {
+          "name": "プライムタイム",
+          "description": "必殺技で高速化したフィンクスの弾が命中するたびに、必殺技の効果時間が<c00cc00><VALUE1></c>秒間延びる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 770,
+      "attackRange": 25,
+      "reloadTimeMs": 1300,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000091,
+      "name": "ルミ",
+      "description": "ルミはメタル愛に溢れるドラマーであったが、スターパークへの就職を機に、ドラムスティックをモーニングスターへと持ち替えた。氷と炎を操る彼女の力は、内気な性格と音楽への熱い情熱を映し出している。",
+      "rarity": "ウルトラレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000091.png",
+      "gadgets": [
+        {
+          "name": "ライトアップ",
+          "description": "地面のモーニングスターに炎をまとわせ、<c00cc00><VALUE1></c>秒間にわたって付近の敵にダメージを与える。\\n毎秒ダメージ：<c00cc00><VALUE2></c>"
+        },
+        {
+          "name": "アイスキューブ",
+          "description": "地面のモーニングスターに氷をまとわせ、<c00cc00><VALUE1></c>秒間にわたって付近を滑りやすくする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "バーンアウト",
+          "description": "必殺技の爆発が<c00cc00><VALUE1></c>秒間にわたって地面を炎上させる。ダメージは爆発の威力に比例する。\\n最大毎秒ダメージ：<c00cc00><VALUE2></c>"
+        },
+        {
+          "name": "ハーフタイム",
+          "description": "モーニングスターを引き戻す際に巻き込んだ敵を<c00cc00><VALUE1></c>秒間スローダウンさせる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 24,
+      "reloadTimeMs": 1000,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7000,
+      "ammoCount": 2,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000090,
+      "name": "オーリー",
+      "description": "改造ホバーボードに乗り、他の迷惑も顧みずスターパーク中を飛びまわるトラブルメーカー！昔のヒップホップが大好きで、いつでもどこでもお気に入りの曲を大音量で響かせている。それを聞いた者たちは、踊り出さずにはいられないようだ。そう、まるで催眠術にでもかけられたかのように...",
+      "rarity": "ウルトラレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000090.png",
+      "gadgets": [
+        {
+          "name": "コンボトリック",
+          "description": "ジャンプしてキックフリップを決め、<c00cc00><VALUE1></c>秒間にわたり、着地地点の敵をすべて挑発状態にする。"
+        },
+        {
+          "name": "ゴン攻め",
+          "description": "次の通常攻撃を受けた敵は、<c00cc00><VALUE1></c>秒間にわたって挑発状態になる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ウォールライド",
+          "description": "壁の近くで移動速度が<c00cc00><!card.statuseffect.speedboostpercent>％</c>上昇する。"
+        },
+        {
+          "name": "レネゲード",
+          "description": "必殺技で前方に移動した後、<c00cc00><VALUE1></c>HPの消耗型のシールドを獲得する。シールドは<c00cc00><VALUE2></c>秒で消滅する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 770,
+      "attackRange": 19,
+      "reloadTimeMs": 1800,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000089,
+      "name": "ミープル",
+      "description": "古今東西のボードゲームに精通していて、ズルや違反をするプレイヤーが大嫌い。ルール違反をしようものなら... 大変なことになるとだけ言っておこう。ただし、例外も存在する... それはルールを司るミープル自身だ！",
+      "rarity": "ハイパーレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000089.png",
+      "gadgets": [
+        {
+          "name": "マンション・オブ・ミープル",
+          "description": "次の通常攻撃の着弾地点にサイコロの塔を生成し、<c00cc00><VALUE1></c>ダメージを与える。"
+        },
+        {
+          "name": "キレ落ち",
+          "description": "怒りで頭に血が上り、近くの敵に突撃して気絶＋ノックバックさせる。自身のHPが少なくなるほど気絶とノックバック効果が強化される。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "プリズンカード",
+          "description": "障害物を貫通した攻撃の与ダメージが<c00cc00><VALUE1></c>上昇する。"
+        },
+        {
+          "name": "法の曲解",
+          "description": "必殺技が範囲内の味方のリロード速度を<c00cc00><VALUE>％</c>上昇させる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 23,
+      "reloadTimeMs": 1700,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000087,
+      "name": "ジュジュ",
+      "description": "骨董品店を営むジュジュは、呪術人形の「グリグリ（別名グレゴリー）」を\\qペット\\qのようにお供として連れている。彼女は呪術使いでありながら、おもちゃ職人としても超一流で、自作の人形はスターパークで人気商品となっている。",
+      "rarity": "ウルトラレア",
+      "className": "グレネーディア",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000087.png",
+      "gadgets": [
+        {
+          "name": "ブードゥーチャイル",
+          "description": "次の通常攻撃に3種類の効果がすべて付与される。"
+        },
+        {
+          "name": "エレメンタリスト",
+          "description": "現在いる地形に応じて一時的な特殊効果を得る。\\n地面：被ダメージが減少\\n草：透明化\\n水上：移動速度が上昇"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "グリグリシールド",
+          "description": "召喚したグリグリにシールドが付与される。"
+        },
+        {
+          "name": "スローニードル",
+          "description": "グリグリの攻撃が、<c00cc00><!card.projectile.statuseffectenemy.duration.ticksasseconds></c>秒にわたって敵をスローダウンさせるようになる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "artillery",
+      "movementSpeed": 720,
+      "attackRange": 19,
+      "reloadTimeMs": 1600,
+      "isThrower": true,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000086,
+      "name": "シェイド",
+      "description": "シェイドは洋服に身を包んだ不思議な生命体だ。やたらとカッコいいサングラスを付けてはいるが、その生態についてはあまり分かっていない。ある日ガスが発見し名前を付けて以来、2人で仲良く幽霊鉄道に憑りついている。",
+      "rarity": "ハイパーレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000086.png",
+      "gadgets": [
+        {
+          "name": "ロングアーム",
+          "description": "次の通常攻撃の射程距離が<c00cc00><VALUE1>％</c>伸びる。"
+        },
+        {
+          "name": "ジャンプスケア",
+          "description": "周囲の敵をビックリさせ、<c00cc00><VALUE1></c>秒にわたってスローダウンさせる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ポルターヘイスト",
+          "description": "通常攻撃で敵を中心に捉えると、短時間移動速度が上昇する。"
+        },
+        {
+          "name": "スペクトルアーマー",
+          "description": "霊体時の被ダメージが<c00cc00><VALUE1>％</c>減少する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 11,
+      "reloadTimeMs": 800,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000085,
+      "name": "ケンジ",
+      "description": "熟練の寿司職人。現在はスターパークで寿司屋を経営しながら幸せな日々を送っているが、周囲には語れない過去があるようだ... でも職人技の極上握りを味わえるんだから、余計な詮索は無用だね！",
+      "rarity": "レジェンドレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000085.png",
+      "gadgets": [
+        {
+          "name": "攻法「出汁走り」",
+          "description": "<c00cc00><VALUE1></c>秒にわたり、通常攻撃が突撃のみになる。"
+        },
+        {
+          "name": "療法「活き造り」",
+          "description": "直近<c00cc00><VALUE2></c>秒間に受けたダメージのうち、<c00cc00><VALUE1>％</c>を瞬時に回復する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "名刀「たちわりおろし」",
+          "description": "必殺技の射程距離が<c00cc00><VALUE1>％</c>伸びる。"
+        },
+        {
+          "name": "秘技「流れ鮨」",
+          "description": "<c00cc00><VALUE1></c>秒間ダメージを回避すると、次の敵からのダメージが<c00cc00><VALUE2>％</c>軽減される。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 8,
+      "reloadTimeMs": 1000,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000084,
+      "name": "モー",
+      "description": "モーはスターパークの下水溝に住んでいた盲目のネズミだ。ある日グロムに拾われて養子となって以来、園内メンテナンスチームの一員として、特注の穴掘り機「ドリラー」で排水管をかっ飛ばしている。アッシュの苦労をよそに、行く先々で直すべき施設に損傷を与え続けているのはご愛敬。",
+      "rarity": "ウルトラレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000084.png",
+      "gadgets": [
+        {
+          "name": "ここ掘れチューチュー",
+          "description": "地中から\\q「拝借」\\qしたアイテムで、必殺技のチャージ率を<c00cc00><VALUE2></c>秒間にわたって<c00cc00><VALUE1>％</c>上昇させる。"
+        },
+        {
+          "name": "ラットレース",
+          "description": "ドリラーに搭乗中、少し前方にダッシュし、壁を破壊して敵をノックバックする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "石切り",
+          "description": "通常攻撃のバウンド数が増加する。射程距離は変化しない。"
+        },
+        {
+          "name": "マイナーズ・ハイ",
+          "description": "ドリラーの移動速度が<c00cc00><!card.statuseffect.speedboostpercent>％</c>上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 770,
+      "attackRange": 15,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000083,
+      "name": "クランシー",
+      "description": "クランシーの辞書に「後退」の文字はない（ハンクの命令は除く）。曲がりなりにも甲殻類としての矜持を持っており、仲間のためならどんな犠牲も厭わない。",
+      "rarity": "ウルトラレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000083.png",
+      "gadgets": [
+        {
+          "name": "刹那の鼓動",
+          "description": "<c00cc00><VALUE1></c>秒にわたり、溜まるトークンゲージの量が2倍になる。"
+        },
+        {
+          "name": "雌伏の撤退",
+          "description": "ダッシュして弾を<c00cc00><VALUE1></c>発リロードする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "早手の斥候",
+          "description": "トークンゲージが<c00cc00><VALUE1></c>溜まった状態でバトルがスタートする。"
+        },
+        {
+          "name": "熟練の兵士",
+          "description": "敵を撃破するとすべての弾をリロードする。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 23,
+      "reloadTimeMs": 1800,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000082,
+      "name": "ベリー",
+      "description": "マンディのキャンディショップの従業員満足度は... 驚異の0％だ。不屈のメンタルと仕事への気概を持つベリーでさえも例外ではなく、店員として働く毎日に辟易している。運が良ければ、仕事終わりに彼の儚い笑顔が見られるかもしれない。",
+      "rarity": "ハイパーレア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000082.png",
+      "gadgets": [
+        {
+          "name": "フレンドシップ",
+          "description": "尻尾で敵をノックバックし、近くの味方のHPを<c00cc00><VALUE1></c>回復させる。"
+        },
+        {
+          "name": "シュガーマシマシ",
+          "description": "次の通常攻撃でアイスクリームの残存時間が<c00cc00><VALUE1>％</c>延長される。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "トロトロリロード",
+          "description": "自身がまいたアイスクリームの上に立つと、リロード速度が<c00cc00><VALUE1>％</c>上昇する。"
+        },
+        {
+          "name": "ペイント＆ペイン",
+          "description": "アイスクリームがまかれていない地点への通常攻撃の着弾ダメージが<c00cc00><VALUE1>％</c>上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 720,
+      "attackRange": 19,
+      "reloadTimeMs": 2400,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "超低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 5200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000081,
+      "name": "リリー",
+      "description": "魔法マニアで魔術が大好きなリリーは、かつて知識を求めるままに不思議の森に足を踏み入れた。そこで蛍と食虫植物にまつわる事件に巻き込まれ、彼女の人生は永久に変わってしまったのだった...",
+      "rarity": "ウルトラレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000081.png",
+      "gadgets": [
+        {
+          "name": "ゲッタウェイ",
+          "description": "<c00cc00><VALUE1></c>秒間、闇のテリトリーに入る。"
+        },
+        {
+          "name": "植え替え",
+          "description": "次の必殺技が弧を描く軌道になり、着弾地点にテレポートする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "フラワースティンガー",
+          "description": "敵の背後にテレポートした後、次の攻撃で与えるダメージが<c00cc00><VALUE1></c>増加する。"
+        },
+        {
+          "name": "警戒態勢",
+          "description": "必殺技のチャージ範囲内に敵がいると、移動速度が<c00cc00><!card.statuseffect.speedboostpercent>％</c>上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 6,
+      "reloadTimeMs": 800,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8400,
+      "ammoCount": 2,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000080,
+      "name": "ドラコ",
+      "description": "ドラゴンの風船にまたがる生粋のエンターテイナー。毎晩のショーで観客を興奮の渦に巻き込み、圧巻のフィナーレで締めくくる。唸り狂うエレキギターと業火を吐き出すドラゴンは、一見の価値あり！",
+      "rarity": "レジェンドレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000080.png",
+      "gadgets": [
+        {
+          "name": "アッパーカット",
+          "description": "次の通常攻撃が命中した敵を空中に打ち上げる。"
+        },
+        {
+          "name": "ラストスタンド",
+          "description": "ドラコのHPが<c00cc00><VALUE1></c>秒間にわたってゼロにならなくなる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "エクスポーズ",
+          "description": "<c00cc00><VALUE1></c>秒おきに発動し、次の通常攻撃が命中した敵を無防備にする。エクスポーズを受けた敵は、<c00cc00><VALUE3></c>秒にわたって受けるダメージが<c00cc00><VALUE2>％</c>増加する。"
+        },
+        {
+          "name": "速弾き",
+          "description": "必殺技を使用すると、HPが<c00cc00><VALUE1></c>回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 720,
+      "attackRange": 12,
+      "reloadTimeMs": 1000,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 11200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000079,
+      "name": "アンジェロ",
+      "description": "あれは蚊？それとも天使？アンジェロは愛の沼をブンブン飛び回り、恋の矢を放ってカップルたちのハートを射貫く蚊の天使だ。心がチクリと痛むのが玉にキズ。",
+      "rarity": "ハイパーレア",
+      "className": "スナイパー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000079.png",
+      "gadgets": [
+        {
+          "name": "激痛テイクオフ",
+          "description": "近くの敵からHP<c00cc00><VALUE2></c>を奪うと同時に、空に<c00cc00><VALUE1></c>秒間浮かび上がる。"
+        },
+        {
+          "name": "ピアシングアロー",
+          "description": "次の通常攻撃が敵や障害物を貫通するようになる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "エネルギー転化",
+          "description": "毒霧の中にいると、自分のHPが毎秒<c00cc00><VALUE1></c>回復する。"
+        },
+        {
+          "name": "空中浮遊",
+          "description": "水に入った後、移動速度が<c00cc00><VALUE1>％</c>上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "marksman",
+      "movementSpeed": 820,
+      "attackRange": 30,
+      "reloadTimeMs": 100,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "溜めて攻撃"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6200,
+      "ammoCount": 1,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000078,
+      "name": "メロディー",
+      "description": "情けも容赦も一切無用... それがメロディーのカラオケ道だ。その小悪魔的なルックスと音符形の小悪魔たちは、常にみんなの注目を集めている。",
+      "rarity": "ウルトラレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000078.png",
+      "gadgets": [
+        {
+          "name": "フォルテシモ",
+          "description": "<c00cc00><VALUE3></c>秒の間、音符の周回速度が<c00cc00><VALUE1>％</c>上昇し、周回範囲が<c00cc00><VALUE2>％</c>増加する。"
+        },
+        {
+          "name": "インタールード",
+          "description": "周回する音符1つにつき、HPの<c00cc00><VALUE1>％</c>分のシールドを発生させる"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "アップテンポ",
+          "description": "周回する音符1つにつき、移動速度が<c00cc00><!card.statuseffect.speedboostpercent>％</c>上昇する。"
+        },
+        {
+          "name": "ボーナストラック",
+          "description": "音符が消滅するまでの時間が<c00cc00><VALUE1>％</c>延びる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 720,
+      "attackRange": 24,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000077,
+      "name": "ラリー＆ローリー",
+      "description": "ラリーとローリーは双子の兄弟だ。スターパークのチケット販売員として働くラリーは、ルールを作るのが大好き！良いルールがあるからこそ、社会が回ると考えている。一方のローリーは、ラリーを見守りながら、ルールを守らせることに心血を注いでいる。実にいいコンビである。",
+      "rarity": "ハイパーレア",
+      "className": "グレネーディア",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000077.png",
+      "gadgets": [
+        {
+          "name": "交換指令",
+          "description": "ローリーと武器を交換する。"
+        },
+        {
+          "name": "撤退指令",
+          "description": "ラリーはローリーに、ローリーはラリーに向かってダッシュし、両者が最大HPの<c00cc00><VALUE1>％</c>を回復する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "防衛プロトコル",
+          "description": "ローリーが範囲内にいる場合、受けるダメージの<c00cc00><VALUE2>％</c>をローリーに移し替える。"
+        },
+        {
+          "name": "装填プロトコル",
+          "description": "ローリーが範囲内にいる場合、ローリーが敵にダメージを与えるたびに通常攻撃を<c00cc00><VALUE2></c>％リロードする。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "artillery",
+      "movementSpeed": 770,
+      "attackRange": 22,
+      "reloadTimeMs": 2200,
+      "isThrower": true,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "超低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000076,
+      "name": "キット",
+      "description": "カートゥーンアニメの主役であるキットは、スタートゥーンスタジオでサインを求めるファンたちに毎日追い回されているが、いつかマスコット的な役割から脱却し、自分の演技を評価してもらいたいと思っている。",
+      "rarity": "レジェンドレア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000076.png",
+      "gadgets": [
+        {
+          "name": "段ボール箱",
+          "description": "段ボール箱に隠れて敵の視界から<c00cc00><VALUE1></c>秒間姿を消す。移動をやめると必殺技のチャージ速度が<c00cc00><VALUE2></c>上昇する。"
+        },
+        {
+          "name": "チーズバーガー",
+          "description": "おぶさった味方キャラクターと自分の両方を<c00cc00><VALUE1></c>回復させる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "上昇志向",
+          "description": "パワーキューブのパワー上昇率が<c00cc00><VALUE1>％</c>増加する。"
+        },
+        {
+          "name": "甘えんぼ",
+          "description": "味方キャラクターにおぶさる時間が<c00cc00><VALUE1></c>秒増加する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 820,
+      "attackRange": 11,
+      "reloadTimeMs": 800,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": true
+    },
+    {
+      "id": 16000075,
+      "name": "ミコ",
+      "description": "ミコは映画の音響スタッフにすぎないが、虚栄心が高く、有名人との逸話をまことしやかに吹聴している。まさに、虎の威を借る狐... いや、猿といったところか。しかし、気性は荒く冗談が通じないため、決してからかったりはしないように...",
+      "rarity": "ウルトラレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000075.png",
+      "gadgets": [
+        {
+          "name": "声量開放",
+          "description": "一番近くの敵に向けて耳をつんざくほどの叫び声を発し、<c00cc00><!card.character.weaponskill.damage.scaletolevel.scaleaccessoryvalue2></c>ダメージを与える。命中した敵は<c00cc00><!card.accessory.customobjectprojectile.statuseffectenemy.duration.ticksasseconds></c>秒間スローダウンする。"
+        },
+        {
+          "name": "猿まわし",
+          "description": "次の通常攻撃の射程距離が<c00cc00><VALUE1>％</c>伸びる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "モンキーパンチ",
+          "description": "通常攻撃が命中した敵から弾薬を奪う。<c00cc00><VALUE1></c>秒ごとに奪取可能。"
+        },
+        {
+          "name": "ミリオンヒット",
+          "description": "キャラクター以外の対象に<c00cc00><VALUE1>％</c>の追加ダメージを与える。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 12,
+      "reloadTimeMs": 2400,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "超低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000074,
+      "name": "チャーリー",
+      "description": "世にも奇妙なサーカスで\\n垂らす髪は蜘蛛糸の如し\\n有り金すべてをくすね取り\\n群衆の中に雲隠れ\\nテント中に髪を張り巡らせ\\n小銭を1枚残らず独り占め！",
+      "rarity": "ウルトラレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000074.png",
+      "gadgets": [
+        {
+          "name": "ペットスパイダー",
+          "description": "蜘蛛を<c00cc00><VALUE1></c>匹召喚して、近くの敵を攻撃する。"
+        },
+        {
+          "name": "パーソナルスペース",
+          "description": "自身をマユに包み、最大HPの<c00cc00><VALUE1>％</c>を回復する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "オーイタイ酸",
+          "description": "マユに包まれた敵は、HPの<c00cc00><VALUE1>％</c>を失う。"
+        },
+        {
+          "name": "スライミーロード",
+          "description": "必殺技の軌道上に粘着質の道を<c00cc00><VALUE1></c>秒間にわたって作り出し、敵の動きを鈍らせる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 27,
+      "reloadTimeMs": 2000,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7400,
+      "ammoCount": 1,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000073,
+      "name": "チャック",
+      "description": "かつてマエストロとして名を馳せていたチャックは、コンサートホールのハーモニーに別れを告げ、不協和音の響く幽霊鉄道の車掌に身を転じた。音楽の新境地を追い求め、今もハンドルを握り続ける。",
+      "rarity": "ウルトラレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000073.png",
+      "gadgets": [
+        {
+          "name": "振替輸送",
+          "description": "一番近くの信号機を撤去する代わりに、必殺技をチャージする。"
+        },
+        {
+          "name": "幽霊鉄道",
+          "description": "次の必殺技で壁を通り抜けることが可能になる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ピットストップ",
+          "description": "信号機の最大設置数を<c00cc00><VALUE1></c>増加させる。"
+        },
+        {
+          "name": "切符を拝見！",
+          "description": "必殺技の突進でダメージを与えた敵の弾薬を<c00cc00><!card.trait.value>％</c>奪う。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 770,
+      "attackRange": 20,
+      "reloadTimeMs": 2000,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000072,
+      "name": "パール",
+      "description": "一見ギャングとは程遠いパールだが、持ち前の「温かさ」でベルとサムの冷え切った心を癒し、2人の仲間入りを果たした。お手製のチョコクッキーを差し出されたら、ノーと言うのは難しい...",
+      "rarity": "ハイパーレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000072.png",
+      "gadgets": [
+        {
+          "name": "焼きすぎ君",
+          "description": "次の通常攻撃で炎を帯びたクッキーを発射し、敵に<c00cc00><VALUE1></c>の継続ダメージを追加で与える。"
+        },
+        {
+          "name": "愛の形",
+          "description": "次の通常攻撃で最高の焼き具合のクッキーを発射し、時間とともに味方のHPを<c00cc00><VALUE1></c>回復する。この攻撃で敵にダメージを与えることはできない。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "熱管理",
+          "description": "必殺技の熱の消費量が<c00cc00><VALUE1>％</c>減少する。"
+        },
+        {
+          "name": "熱防御",
+          "description": "熱が<c00cc00><VALUE1>％</c>以上のとき、受けるダメージが<c00cc00><VALUE2>％</c>軽減される。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 27,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000071,
+      "name": "ダグ",
+      "description": "ダグのホットドッグを食べると味方の賞味期限が延長される...らしい...",
+      "rarity": "ウルトラレア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000071.png",
+      "gadgets": [
+        {
+          "name": "ダブルソーセージ",
+          "description": "次の通常攻撃が味方を回復させるだけの効果になるが、回復量が2倍になる。"
+        },
+        {
+          "name": "マシマシマスタード",
+          "description": "次の通常攻撃が敵にダメージを与えるだけの効果になるが、ダメージが2倍になる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ファストフード",
+          "description": "味方を復活させると、自身の最大HPの<c00cc00><VALUE1>％</c>分、自身を回復する。"
+        },
+        {
+          "name": "セルフサービス",
+          "description": "通常攻撃を行うと、ダグのHPが<c00cc00><VALUE1></c>回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 770,
+      "attackRange": 10,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000070,
+      "name": "コーデリアス",
+      "description": "不思議の森を管理する園芸家。キノコに目がないが、見知らぬ訪問者は容赦なく追い返すぞ！",
+      "rarity": "レジェンドレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000070.png",
+      "gadgets": [
+        {
+          "name": "キノコジャンプ",
+          "description": "地上の障害物を素早く飛び越える。"
+        },
+        {
+          "name": "フウジダケ",
+          "description": "次の通常攻撃で毒キノコを発射し、命中した敵の攻撃を<c00cc00><VALUE1></c>秒間封じる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "キノコンボ",
+          "description": "2発目のキノコを同じ敵に命中させると、<c00cc00><VALUE1>％</c>の追加ダメージを与える。"
+        },
+        {
+          "name": "キノコキングダム",
+          "description": "必殺技を使うと闇のテリトリーに<c00cc00><VALUE1></c>個のキノコを生成する。キノコを拾った味方はHPが<c00cc00><VALUE2></c>回復するが、敵が拾うと同量のダメージを与える。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 16,
+      "reloadTimeMs": 1200,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000069,
+      "name": "ハンク",
+      "description": "ハンクはエビの身体と愛用の戦車を武器に、キッチンや魚市場から魚介類を解放しようと一人で奔走している。シェフの皆さん、ご注意を！",
+      "rarity": "ハイパーレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000069.png",
+      "gadgets": [
+        {
+          "name": "ウォーターバルーン",
+          "description": "次に放つ通常攻撃が命中すると、敵が<c00cc00><VALUE1></c>秒間スローダウンする。"
+        },
+        {
+          "name": "隠れ蓑",
+          "description": "<c00cc00><VALUE2></c>秒間、受けるダメージが<c00cc00><VALUE1>％</c>減少する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ブロウアップ",
+          "description": "通常攻撃を<c00cc00><!card.value1>％</c>以上チャージすると、移動速度が<c00cc00><!card.statuseffect.speedboostpercent>％</c>上昇する。"
+        },
+        {
+          "name": "一時避難",
+          "description": "壁の近くにいると、受けるダメージが<c00cc00><VALUE1>％</c>減少する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 720,
+      "attackRange": 10,
+      "reloadTimeMs": 250,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "溜めて攻撃"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 11000,
+      "ammoCount": 1,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000068,
+      "name": "メイジー",
+      "description": "メイジーの職務は安全管理だが、実はスリルが大好き。なんなら、自ら率先して危険な状況を招いている節もある...",
+      "rarity": "ハイパーレア",
+      "className": "スナイパー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000068.png",
+      "gadgets": [
+        {
+          "name": "戦略的撤退",
+          "description": "地面を大きく揺らし、自身は前方にダッシュしながら敵を<c00cc00><VALUE1></c>秒にわたって気絶させる。"
+        },
+        {
+          "name": "フィニッシャー",
+          "description": "瞬時に弾を<c00cc00><VALUE1></c>発リロードし、次の通常攻撃のダメージを強化する。強化率は、ターゲットが失った分のHPの<c00cc00><VALUE2>％</c>となる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "精密射撃",
+          "description": "通常攻撃の最大射程におけるダメージが<c00cc00><VALUE1>％</c>増加する。"
+        },
+        {
+          "name": "ガクブルソニック",
+          "description": "必殺技がヒットした敵は、<c00cc00><VALUE2></c>秒間スローダウンする。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "marksman",
+      "movementSpeed": 720,
+      "attackRange": 26,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000067,
+      "name": "ウィロー",
+      "description": "愛の沼で船頭として働くウィローは、ロマンチックな夜を求めてやってくるカップルに、この世のものとは思えないようなゾッとする体験を提供する。",
+      "rarity": "ウルトラレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000067.png",
+      "gadgets": [
+        {
+          "name": "トランス",
+          "description": "次の通常攻撃のダメージが<c00cc00><VALUE1></c>増加するとともに、継続ダメージではなく瞬時にダメージを与える。"
+        },
+        {
+          "name": "ダイブ",
+          "description": "<c00cc00><VALUE1></c>秒間ダイブして敵のターゲットにされなくなるが、その間は何もできなくなる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "恋は盲目",
+          "description": "通常攻撃が命中した敵は、リロード速度が<c00cc00><VALUE2></c>秒間にわたって<c00cc00><VALUE1>％</c>遅くなる。"
+        },
+        {
+          "name": "君に夢中",
+          "description": "必殺技が命中した敵は、スピードが<c00cc00><!card.statuseffect.speedboostpercent>％</c>上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 22,
+      "reloadTimeMs": 2000,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000066,
+      "name": "R-T",
+      "description": "R-Tはスターパークのインフォメーションデスクとして開発されたが、現在は園内のモニタリング業務にも携わっている。プライバシーには配慮しているので、ご安心を。",
+      "rarity": "ウルトラレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000066.png",
+      "gadgets": [
+        {
+          "name": "実力行使",
+          "description": "自分の必殺技を瞬時にチャージする。"
+        },
+        {
+          "name": "一斉起爆",
+          "description": "敵キャラクターに付けたすべてのマーキングを起動させ、ダメージを与える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "高速演算",
+          "description": "マーキングの有効時間が<c00cc00><VALUE1></c>秒間延びる。"
+        },
+        {
+          "name": "レコーディング",
+          "description": "分裂時に本体と脚の受けるダメージが<c00cc00><VALUE1></c>％減少する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 30,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000065,
+      "name": "マンディ",
+      "description": "マンディはコスプレが大好きなキャンディショップの経営者だ。あま～い世界観の店内で武器を振り回しているが、すべては店の統制を保つため。",
+      "rarity": "ハイパーレア",
+      "className": "スナイパー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000065.png",
+      "gadgets": [
+        {
+          "name": "キャラメトル",
+          "description": "次の通常攻撃が命中した際に、敵を<c00cc00><!card.accessory.statuseffectenemy.duration.ticksasseconds></c>秒間にわたってスローダウンさせる。"
+        },
+        {
+          "name": "クッキークランブル",
+          "description": "次の通常攻撃が敵と障害物を貫通するようになる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "視界良好",
+          "description": "集中力ゲージが溜まっている間は、キャンディの発射速度が<c00cc00><VALUE1>％</c>上昇する。"
+        },
+        {
+          "name": "ハードキャンディ",
+          "description": "集中力ゲージが溜まっている間、シールドを発動してダメージを<c00cc00><VALUE1>％</c>軽減する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "marksman",
+      "movementSpeed": 720,
+      "attackRange": 27,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000064,
+      "name": "グレイ",
+      "description": "サイレント映画の役者であるグレイは、もちろん演技中は喋らないように気を付けている。しかし、指を銃に見立てて演技するときは、つい「バン！」と言葉を発してしまう。",
+      "rarity": "ウルトラレア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000064.png",
+      "gadgets": [
+        {
+          "name": "ウォーキングステッキ",
+          "description": "次の通常攻撃でステッキを発射し、命中すると敵を自分の方へ少しだけ引き寄せる。"
+        },
+        {
+          "name": "グランドピアノ",
+          "description": "次に通常攻撃を発射すると地面に目印が付き、そこにピアノを落として敵を下敷きにする。余計な怪我人が出ないことを祈るばかりだ..."
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "マリーシア",
+          "description": "HPが満タンのとき、受けるダメージが<c00cc00><VALUE>％</c>軽減される。"
+        },
+        {
+          "name": "ワープマジック",
+          "description": "作り出したワープ地点を自身や味方が通過すると、最大HPの<c00cc00><VALUE>％</c>分が回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 720,
+      "attackRange": 27,
+      "reloadTimeMs": 1400,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000063,
+      "name": "チェスター",
+      "description": "手あたり次第に人をおちょくる悪い癖があるチェスター。しかも相手が不快感を抱くほど上機嫌になる。特にマンディに対しては容赦ない。",
+      "rarity": "レジェンドレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000063.png",
+      "gadgets": [
+        {
+          "name": "ダイスロール",
+          "description": "表示されている必殺技がランダムに入れ替わる。"
+        },
+        {
+          "name": "ドッキリキャンディ",
+          "description": "食べるまで味がわからないキャンディを帽子から取り出し、<c00cc00><VALUE1></c>秒にわたってステータスがランダムに強化される。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ドデカい一発",
+          "description": "通常攻撃の1段階目のダメージが<c00cc00><VALUE1>％</c>に増加する。"
+        },
+        {
+          "name": "ネタばらし",
+          "description": "自分が次に繰り出す必殺技の種類が常に表示される。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 770,
+      "attackRange": 25,
+      "reloadTimeMs": 1900,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000062,
+      "name": "バスター",
+      "description": "バスターは職場の映画館からプロジェクターを拝借して、遊び道具にしている。危険なうえに、プロ失格！",
+      "rarity": "ウルトラレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000062.png",
+      "gadgets": [
+        {
+          "name": "ユーティリティベルト",
+          "description": "必殺技チャージエリアにいる味方1体につき、自分と周囲にいる味方のHPを<c00cc00><VALUE1></c>回復させる。"
+        },
+        {
+          "name": "コマ落とし",
+          "description": "次にレンズフレアを使用すると敵がバスターの方向へ引き寄せられる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ブロックバスター",
+          "description": "通常攻撃のダメージを、必殺技チャージエリア内の味方1人につき<c00cc00><VALUE1>％</c>増加させる。"
+        },
+        {
+          "name": "防弾チョッキ",
+          "description": "モンタージュを使用中、バスターの被ダメージを<c00cc00><VALUE1>％</c>減少させ、ノックバック、スローダウン、気絶を無効にする。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 770,
+      "attackRange": 16,
+      "reloadTimeMs": 1800,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000061,
+      "name": "ガス",
+      "description": "一見、亡霊のような見た目をした少年ガスは、心が純粋すぎて恐怖という感情すらないらしく、怪奇現象や超能力にはまっている。",
+      "rarity": "スーパーレア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000061.png",
+      "gadgets": [
+        {
+          "name": "ゴーストクラッカー",
+          "description": "回収していないゴーストをすべて破裂させて、近くにいる敵に<c00cc00><VALUE1></c>ダメージを与える。"
+        },
+        {
+          "name": "ソウルコンバーター",
+          "description": "HPの<ccc0000><VALUE1>％</c>を犠牲にして、瞬時にゴーストのゲージを<c00cc00><VALUE2>％</c>チャージする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ヒールアップ",
+          "description": "ゴースト回収によるHPの回復量を<c00cc00><VALUE1>％</c>増加させる。"
+        },
+        {
+          "name": "スピリットアニマル",
+          "description": "必殺技で味方1人のダメージ量を<c00cc00><VALUE2></c>秒にわたって<c00cc00><VALUE1>％</c>増加させる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 720,
+      "attackRange": 28,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000060,
+      "name": "サム",
+      "description": "元工場作業員のサムは、現在ゴールドアーム ギャングの一味として指名手配中。リーダーのベルが行き過ぎた真似をしないよう、常に目を光らせている。",
+      "rarity": "ハイパーレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000060.png",
+      "gadgets": [
+        {
+          "name": "磁界",
+          "description": "ナックルバスターが地上にある状態で発動すると、近くの敵がナックルに引き寄せられる。"
+        },
+        {
+          "name": "パルスウェーブ",
+          "description": "次にナックルバスターを発動すると、地上に落ちると同時に電磁パルスが発生して敵をノックバックする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "元気復活",
+          "description": "ナックルバスターを呼び戻すと、失ったHPの<c00cc00><VALUE1>％</c>を瞬時に回復する。"
+        },
+        {
+          "name": "リモートチャージ",
+          "description": "地上のナックルバスターの近くに敵がいると、必殺技がチャージされる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 770,
+      "attackRange": 9,
+      "reloadTimeMs": 1600,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 11400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000059,
+      "name": "オーティス",
+      "description": "オーティスは壁にインクを噴射してアートを描く、若きストリートアーティスト。素性は謎に包まれているが、それゆえに魅力が増している。",
+      "rarity": "ウルトラレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000059.png",
+      "gadgets": [
+        {
+          "name": "スリープスター",
+          "description": "次にシルを投げたときに敵に当たらなかった場合は地面に張り付き、敵が近付くまで目を覚まさない。"
+        },
+        {
+          "name": "黒潮",
+          "description": "次にオーティスが放つ攻撃が巨大なインク玉となり、落ちた場所にインクの水たまりを作る。水たまりは<c00cc00><VALUE2></c>秒にわたって、敵に<c00cc00><VALUE1></c>ずつダメージを与える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ぺったんこシール",
+          "description": "ヒトデのシルが全力で敵にへばりつき、敵の攻撃を封じる時間が<c00cc00><VALUE1>％</c>長くなる。"
+        },
+        {
+          "name": "詰替用インク",
+          "description": "オーティスの放つインク玉が<c00cc00><VALUE1>％</c>増える。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 27,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000058,
+      "name": "ボニー",
+      "description": "天真爛漫かつ注意力散漫なボニーの夢は、自身の大砲で月まで飛ばされること！",
+      "rarity": "ハイパーレア",
+      "className": "スナイパー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000058.png",
+      "gadgets": [
+        {
+          "name": "シュガーラッシュ",
+          "description": "大砲の移動速度とリロード速度が<c00cc00><!card.accessory.statuseffectself.duration.ticksasseconds></c>秒にわたって<c00cc00><!card.accessory.statuseffectself.speedboostpercent>％</c>上昇する。"
+        },
+        {
+          "name": "衝突試験",
+          "description": "前方にダッシュして敵をノックバックしながら<c00cc00><VALUE1></c>ダメージを与える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ブラックパウダー",
+          "description": "必殺技の射程が<c00cc00><VALUE1>％</c>伸びる。"
+        },
+        {
+          "name": "親知らず",
+          "description": "通常攻撃が命中すると拡散して周囲の敵に<c00cc00><VALUE1>％</c>の追加ダメージを与える。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "marksman",
+      "movementSpeed": 620,
+      "attackRange": 27,
+      "reloadTimeMs": 1000,
+      "isThrower": false,
+      "movementLabels": [
+        "低速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10000,
+      "ammoCount": 1,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000057,
+      "name": "ジャネット",
+      "description": "スタントウーマンのジャネットは、トップスターになるための努力を惜しまない。妹のボニーがトラブルに巻き込まれた際は、ショーで培ったスキルを駆使して救出する。",
+      "rarity": "ウルトラレア",
+      "className": "スナイパー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000057.png",
+      "gadgets": [
+        {
+          "name": "低音スピーカー",
+          "description": "重低音を轟かすスピーカーを投入し、破壊されるまで効果範囲内の敵に毎秒<c00cc00><VALUE1></c>ダメージを与える。"
+        },
+        {
+          "name": "舞台裏直行券",
+          "description": "次の通常攻撃で、反動を使って大きく後ろにジャンプする。壁を越えることも可能で、エイムが集約されているほど、後退する距離も長くなる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "特等席",
+          "description": "飛行中は周囲のやぶの中が広範囲にわたって見えるようになる。"
+        },
+        {
+          "name": "発声練習",
+          "description": "通常攻撃のエイムの集約速度が<c00cc00><VALUE1>％</c>上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "marksman",
+      "movementSpeed": 720,
+      "attackRange": 12,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000056,
+      "name": "イヴ",
+      "description": "イヴの生きがいは、産み落とした子どもたちを守ること。安全な巣を作るためなら手段を選ばない。ここだけの話、ラフスの毛皮を狙っているそうだ。",
+      "rarity": "ウルトラレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000056.png",
+      "gadgets": [
+        {
+          "name": "ベビーシッター",
+          "description": "ベビーを1体その場に産み落とし、大きくジャンプする。"
+        },
+        {
+          "name": "無条件の愛",
+          "description": "タマゴから産まれるベビーが時間とともに味方を回復する。ただし、敵には攻撃を加えなくなる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "摂理への冒涜",
+          "description": "通常攻撃で撃ち出されるタマゴの順番が逆になる。"
+        },
+        {
+          "name": "ベビーシャワー",
+          "description": "通常攻撃の一番大きなタマゴが命中すると、そのタマゴから<c00cc00><VALUE1></c>秒ごとにベビーが産まれる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 28,
+      "reloadTimeMs": 1600,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000054,
+      "name": "ファング",
+      "description": "カンフー映画オタクのファングは、人生のすべてをカンフーに捧げてきた。自信家だが愛嬌もあり、むやみに拳は繰り出さない。蹴りに勝る攻撃はないと信じているからだ！",
+      "rarity": "ウルトラレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000054.png",
+      "gadgets": [
+        {
+          "name": "ポップシュート",
+          "description": "小型の爆弾を空中にばらまいて、ポップコーンさながらに破裂させる。爆弾は1つにつき<c00cc00><VALUE1></c>ダメージを与える。"
+        },
+        {
+          "name": "まわし蹴り",
+          "description": "回転して周囲にいる敵全員を蹴り散らす。命中した敵は<c00cc00><VALUE1></c>秒間気絶して動けなくなる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ボーナススニーカー",
+          "description": "必殺技で敵を倒すとゲージが満タンにチャージされ、すぐにもう一度使えるようになる。"
+        },
+        {
+          "name": "厚底シューズ",
+          "description": "<c00cc00><VALUE1></c>秒につき1度、敵の攻撃を<c00cc00><VALUE2></c>ダメージ低減する。最大低減率は、受けたダメージの<c00cc00><VALUE3>％</c>となる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 770,
+      "attackRange": 8,
+      "reloadTimeMs": 1000,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 9600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000053,
+      "name": "ローラ",
+      "description": "ローラは注目を浴びるのが大好きだ。欲しいもののためなら、どんなスキャンダルをも厭わない。周りが騒ぎ立てるほど有頂天になるので要注意。",
+      "rarity": "ハイパーレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000053.png",
+      "gadgets": [
+        {
+          "name": "シャッターチャンス",
+          "description": "分身が動きを止めてポーズを決めると、<c00cc00><VALUE2></c>秒間にわたってシールドが発動し、分身の受けるダメージを<c00cc00><VALUE1>％</c>低減する。"
+        },
+        {
+          "name": "スタントダブル",
+          "description": "ローラと分身の位置が入れ替わり、両者のHPが<c00cc00><VALUE1></c>回復する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "即興劇",
+          "description": "残りの弾数が1発の状態で攻撃すると、敵に<c00cc00><VALUE2>％</c>の追加ダメージを与える。"
+        },
+        {
+          "name": "痛いの飛んでけ",
+          "description": "分身から放たれる弾丸の軌道上にいる味方のHPを<c00cc00><VALUE1></c>回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 27,
+      "reloadTimeMs": 1700,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000052,
+      "name": "メグ",
+      "description": "MAXやサージとは対照的に、メグが表舞台に立つことはない。強靭なメカスーツに身を包み、縁の下の力持ちとして真のトラブルを解決している。",
+      "rarity": "レジェンドレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000052.png",
+      "gadgets": [
+        {
+          "name": "急速チャージ",
+          "description": "メカのHPが<c00cc00><VALUE2></c>秒間にわたって、毎秒<c00cc00><VALUE1></c>回復する。メカ搭乗中のみ使用可能。"
+        },
+        {
+          "name": "ツールボックス",
+          "description": "メグがメカから脱出する。メカは前方に射出され、命中した敵に<c00cc00><!card.accessory.skill.damage.scaleStatToLevel></c>ダメージを与える。発動後は<c00cc00><!card.character.component[0].values[1].ticksasseconds></c>秒間にわたり必殺技がチャージされる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "相棒の加護",
+          "description": "メカが破壊されると、ダメージを<c00cc00><VALUE1></c>％軽減するシールドが発動し、<c00cc00><VALUE2></c>秒間メグを守る。"
+        },
+        {
+          "name": "メタルショック",
+          "description": "鉄の意思（メカ搭乗時の必殺技）が命中した敵1体につき、メカのHPが<c00cc00><!card.value1.scaleStatToLevel></c>回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv",
+        "supercell-rumble-jungle-ja"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 720,
+      "attackRange": 27,
+      "reloadTimeMs": 1300,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000051,
+      "name": "アッシュ",
+      "description": "スターパークの清掃員として、裏方に徹するアッシュ。ガラスの破片や凶暴なネズミから身を守るためにゴミ箱を被っているが、そのせいでいつもご機嫌ナナメだ。",
+      "rarity": "ハイパーレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000051.png",
+      "gadgets": [
+        {
+          "name": "鎮静剤",
+          "description": "怒っていても、我を忘れてはならない。怒りゲージに比例して自身を癒し、満タンで発動した場合はHPが<c00cc00><VALUE1></c>回復する。"
+        },
+        {
+          "name": "バナナの皮",
+          "description": "自身のHPの<ccc0000><VALUE1>％</c>と引き換えに、瞬時に<c00cc00><VALUE2>％</c>の怒りゲージが溜まる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "綺麗好き",
+          "description": "通常攻撃のゲージが満タンの状態で敵を攻撃すると、怒りゲージの上昇率が<c00cc00><VALUE1>％</c>増加する。"
+        },
+        {
+          "name": "大激怒",
+          "description": "怒りが溜まるにつれて、リロード速度が最大<c00cc00><VALUE1>％</c>まで徐々に上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv",
+        "supercell-ash-2021"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 720,
+      "attackRange": 14,
+      "reloadTimeMs": 1400,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 11800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000050,
+      "name": "グリフ",
+      "description": "金持ちの社長らしい振る舞いを見せるグリフだが、唯一の事業はスターパーク内の閑散としたギフトショップである。銀行から催促の電話がかかってくるときに限って、不在だという。",
+      "rarity": "ハイパーレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000050.png",
+      "gadgets": [
+        {
+          "name": "ブタの貯金箱",
+          "description": "爆薬入りのブタの貯金箱を投げる。貯金箱は少し遅れて爆発して障害物を破壊し、範囲内にいる敵に<c00cc00><!card.accessory.skill.damage.scaletolevel></c>ダメージを与える。"
+        },
+        {
+          "name": "コインの雨",
+          "description": "狙った範囲にコインの雨を降らし、範囲内の敵に毎秒<c00cc00><!card.accessory.skill.damage.scaletolevel></c>ダメージを与える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "釣りはいらねえ",
+          "description": "コイントスの攻撃範囲が少し広がり、コインの連射数が1つ増える。"
+        },
+        {
+          "name": "V字回復",
+          "description": "<c00cc00><!card.value2.ticksasseconds></c>秒ごとに、失ったHPの最大<c00cc00><!card.value1>％</c>を回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 25,
+      "reloadTimeMs": 1600,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000049,
+      "name": "バズ",
+      "description": "ヴェロシラピッズ ウォーターパークで働くバズは、規則に厳しいことで有名だ。ライフガードとしてのわずかな権限を最大限に使って、人の上に立つ優越感に浸っている。",
+      "rarity": "ウルトラレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000049.png",
+      "gadgets": [
+        {
+          "name": "緊急ブイ",
+          "description": "必殺技のゲージを即座に満タンにするが、次回の気絶効果はなくなる。"
+        },
+        {
+          "name": "X線ゴーグル",
+          "description": "必殺技がチャージされる範囲内では、やぶの中にいる敵が<c00cc00><VALUE1></c>秒にわたって見えるようになる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "魚雷改",
+          "description": "必殺技による気絶の最短効果時間が<c00cc00><VALUE1></c>秒間延びる。"
+        },
+        {
+          "name": "鋭い眼差し",
+          "description": "必殺技のチャージエリアが<c00cc00><VALUE1>％</c>拡大する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 770,
+      "attackRange": 8,
+      "reloadTimeMs": 1000,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000048,
+      "name": "グロム",
+      "description": "グロムはマッチョなセキュリティーガードだが、唯一の弱点がある。子どもたちだ。保育士時代に受けたいたずらを思い出すと、フラッシュバックに襲われる。",
+      "rarity": "ハイパーレア",
+      "className": "グレネーディア",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000048.png",
+      "gadgets": [
+        {
+          "name": "監視カメラ",
+          "description": "懐から小型カメラを取り出すと、広範囲にわたって監視機能が作動し、やぶに隠れた敵が味方から見えるようになる。小型カメラのHPは時間とともに少しずつ減少する。"
+        },
+        {
+          "name": "無線チェック",
+          "description": "次の通常攻撃で、<c00cc00><VALUE1></c>個のトランシーバーを素早く連続で投げつける。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "巡回警備",
+          "description": "必殺技が完全にチャージされている間、移動速度が<c00cc00><!card.statuseffect.speedboostpercent>％</c>上昇する。"
+        },
+        {
+          "name": "Xファクター",
+          "description": "通常攻撃の爆発が中心から離れるほど威力を増し、最大で<c00cc00><VALUE1>％</c>の追加ダメージを与える。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "artillery",
+      "movementSpeed": 720,
+      "attackRange": 23,
+      "reloadTimeMs": 2000,
+      "isThrower": true,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000047,
+      "name": "スクウィーク",
+      "description": "スクウィークはハッピーオーラ全開の不思議な生き物。一緒にいれば笑顔になること間違いなし！ラフスのよだれから生まれたという事実は知らない方が幸せだ。",
+      "rarity": "ウルトラレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000047.png",
+      "gadgets": [
+        {
+          "name": "ネジ巻き",
+          "description": "次の通常攻撃のダメージが<c00cc00><VALUE2>％</c>、射程距離が<c00cc00><VALUE1>％</c>増加する。"
+        },
+        {
+          "name": "不純物",
+          "description": "次の通常攻撃の破裂後に汚染されたエリアを作り出し、<c00cc00><VALUE1></c>秒にわたって敵をスローダウンさせる。さらに、自分と味方はやぶの中が見えるようになる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "連鎖反応",
+          "description": "粘着ジェル爆弾の爆発範囲内にいる敵1体につき、与えるダメージが<c00cc00><VALUE1>％</c>増幅する。"
+        },
+        {
+          "name": "超粘着質",
+          "description": "必殺技の二次爆発に巻き込まれた敵を、<c00cc00><VALUE2></c>秒間にわたってスローダウンさせる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 23,
+      "reloadTimeMs": 2100,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000046,
+      "name": "ベル",
+      "description": "ベルは悪名高きゴールドアーム ギャングのリーダーだ。とはいえ、お金は二の次。スターパークの秘密を暴いて崩壊させようと目論んでいる。",
+      "rarity": "ハイパーレア",
+      "className": "スナイパー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000046.png",
+      "gadgets": [
+        {
+          "name": "ビリビリトラップ",
+          "description": "敵が触れると起爆するトラップを地面に設置する。トラップは<c00cc00><!card.character.weaponskill.damage.scaletolevel.scaleaccessoryvalue1></c>ダメージを与えるうえ、範囲内にいるすべての敵を<c00cc00><!card.accessory.customobjectitem.triggerareaeffect.statuseffectenemy.duration.ticksAsSeconds></c>秒間にわたってスローダウンさせる。"
+        },
+        {
+          "name": "逆極性",
+          "description": "次の通常攻撃が壁から跳ね返る。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "フレミング",
+          "description": "電撃がターゲットに命中すると、ダメージを<c00cc00><VALUE1>％</c>低減するシールドを獲得する。"
+        },
+        {
+          "name": "感電",
+          "description": "必殺技によってマーキングされた敵は、通常攻撃を<c00cc00><VALUE2></c>秒間リロードできなくなる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "marksman",
+      "movementSpeed": 720,
+      "attackRange": 30,
+      "reloadTimeMs": 1400,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 5800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000045,
+      "name": "ストゥー",
+      "description": "スタントマンとして長年活躍してきたストゥーは、数多くの怪我やガソリンの煙にやられてしまったのか、近頃はヨロヨロとおぼつかない足取り。",
+      "rarity": "ハイパーレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000045.png",
+      "gadgets": [
+        {
+          "name": "スピードゾーン",
+          "description": "ブースターを設置して、効果範囲内にいる味方と自身の移動速度を加速させる。"
+        },
+        {
+          "name": "ブレイクスルー",
+          "description": "次の必殺技で、障害物を突き破ることができる。前方に飛び散った破片が敵に命中すると、1つにつき<c00cc00><VALUE1></c>ダメージを与える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "抵抗ゼロ",
+          "description": "必殺技のダッシュ距離が<c00cc00><VALUE1>％</c>増加する。"
+        },
+        {
+          "name": "ガスヒール",
+          "description": "必殺技を発動すると、自身のHPが<c00cc00><VALUE1></c>回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 720,
+      "attackRange": 23,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000044,
+      "name": "ラフス",
+      "description": "誠実で規律を重んじるラフスは、大佐としてマニュアル通りに宇宙船の部下たちを率いているが、本当はご主人様が欲しいのかも...？",
+      "rarity": "ウルトラレア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000044.png",
+      "gadgets": [
+        {
+          "name": "バリケード",
+          "description": "自分の周りに<c00cc00><VALUE1></c>個のサンドバッグの壁を出現させる。各サンドバッグのHPは、ラフスの最大HPの<c00cc00><VALUE2>％</c>となる。"
+        },
+        {
+          "name": "エアサポート",
+          "description": "空からの一斉砲火を要請して、最も近くにいる敵を攻撃する。ミサイルは1発につき<c00cc00><VALUE1></c>ダメージを与える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "制空",
+          "description": "支援物資に爆弾を仕込むことで、落下ダメージが<c00cc00><VALUE1>％</c>増加し、壁を壊せるようになる。"
+        },
+        {
+          "name": "一括昇格",
+          "description": "この能力の効果範囲内にいる味方は、最大HPが毎秒<c00cc00><VALUE1></c>ずつ増加する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 720,
+      "attackRange": 27,
+      "reloadTimeMs": 1400,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000043,
+      "name": "エドガー",
+      "description": "俺の理解者は誰もいない... エドガーはそんな思いに毎日駆られている。母親は思春期特有の問題だと考えているが、心の奥深くに広がる闇の深さは、彼自身にしか分からない。",
+      "rarity": "ハイパーレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000043.png",
+      "gadgets": [
+        {
+          "name": "原動力",
+          "description": "スカーフで最も近くのキャラクターをつかみ、その背後へ飛び移る。壁に引っかけて自分を引き寄せることも可能。"
+        },
+        {
+          "name": "ハードコア",
+          "description": "シールドを発動し、次に受ける<c00cc00><!card.character.maxhealth.scaletolevel.scaleaccessoryvalue1></c>ダメージを無効化する。シールドは時間とともに耐久力が低下する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ハードクラッシュ",
+          "description": "必殺技とガジェット「原動力」の着地時、周囲の敵に<c00cc00><!card.areaeffect.damage.scaleweapondamagelevel.scaletolevel></c>ダメージを与える。直撃した相手には<c00cc00><!card.areaeffect.innerradiusdamage.scaleweapondamagelevel.scaletolevel></c>ダメージを与える。"
+        },
+        {
+          "name": "拳一本",
+          "description": "通常攻撃での回復率が<c00cc00><!card.value1>％</c>上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 6,
+      "reloadTimeMs": 700,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": true
+    },
+    {
+      "id": 16000042,
+      "name": "バイロン",
+      "description": "バイロンはこれまで、クスリにも猛毒にもなりえる調合薬を数多く開発してきた... しかし、その大半は危険物に指定されているようだ。",
+      "rarity": "ウルトラレア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000042.png",
+      "gadgets": [
+        {
+          "name": "カンフル剤",
+          "description": "薬剤を自分に注入して、<c00cc00><VALUE2></c>秒にわたってHPを毎秒<c00cc00><VALUE1></c>回復する。"
+        },
+        {
+          "name": "ブースター注射",
+          "description": "次の通常攻撃で、<c00cc00><VALUE1></c>発のショットを同時に発射する。ただし、それぞれのダメージは<ccc0000><VALUE2>％</c>、回復量は<ccc0000><VALUE3>％</c>低減する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "倦怠感",
+          "description": "必殺技に当たった敵は、あらゆる回復の効果が<c00cc00><VALUE2></c>秒にわたって<c00cc00><VALUE1>％</c>減少する。"
+        },
+        {
+          "name": "注射",
+          "description": "通常攻撃が<c00cc00><VALUE1></c>秒ごとに、標的を貫通するようになる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 720,
+      "attackRange": 30,
+      "reloadTimeMs": 1450,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 5200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000041,
+      "name": "ルー",
+      "description": "ルーはシャーベット販売ロボットだが、極寒の雪山の頂上に設置されているせいか今のところ売上は０。",
+      "rarity": "ウルトラレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000041.png",
+      "gadgets": [
+        {
+          "name": "アイスブロック",
+          "description": "氷のシールドを発生させ、<c00cc00><VALUE1></c>秒間ダメージを無効化する。"
+        },
+        {
+          "name": "氷結シロップ",
+          "description": "必殺技の効果範囲にいる敵は、凍結メーターが<c00cc00><VALUE1>％</c>上昇する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "スーパークール",
+          "description": "必殺技の効果範囲にいる敵は、凍結速度が<c00cc00><VALUE1>％</c>上昇する。"
+        },
+        {
+          "name": "低体温",
+          "description": "攻撃による凍結度合に応じて、敵の攻撃力を最大で<c00cc00><VALUE1>％</c>低下させる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 28,
+      "reloadTimeMs": 1100,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000040,
+      "name": "アンバー",
+      "description": "アンバーは火遊びが大好き！ちょっと抜けているのに自信過剰で、安全よりも見栄えを優先しがちだ。",
+      "rarity": "レジェンドレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000040.png",
+      "gadgets": [
+        {
+          "name": "ファイアスターター",
+          "description": "<c00cc00><!card.accessory.statuseffectself.duration.ticksasseconds></c>秒にわたって、通常より<c00cc00><!card.accessory.statuseffectself.speedboostpercent>％</c>速く移動しながら地面に燃料をまき散らす。燃料には火をつけることができる。"
+        },
+        {
+          "name": "ダンシングフレイム",
+          "description": "<c00cc00><VALUE3></c>個の炎の玉が<c00cc00><VALUE2></c>秒にわたって自分の周りを旋回し、敵に当たるたびに<c00cc00><VALUE1></c>ダメージを与える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ワイルドフレイム",
+          "description": "地面に燃料の水たまりを同時に2つ作り出すことができる。燃料のそばにいる間は、必殺技のゲージが自動的に溜まる。"
+        },
+        {
+          "name": "フレイムアブゾーブ",
+          "description": "燃料の水たまりのそばにいる間は、吐き出す炎のチャージ速度が<c00cc00><VALUE1>％</c>増加する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 25,
+      "reloadTimeMs": 220,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6800,
+      "ammoCount": 40,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000039,
+      "name": "コレット",
+      "description": "ギフトショップで働くコレットは、ブロスタキャラのフィギュアやぬいぐるみなど、グッズをすべてコンプリートするほど熱狂的なコレクター。2次元にのめり込みすぎて、現実との境目があやふやになっているのも事実。",
+      "rarity": "ハイパーレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000039.png",
+      "gadgets": [
+        {
+          "name": "反骨精神",
+          "description": "弾薬を消費して弾を発射し、命中した敵を<c00cc00><!card.accessory.skill.projectile.statuseffectenemy.duration.ticksasseconds></c>秒間、魅了状態にする。"
+        },
+        {
+          "name": "インセンティブ",
+          "description": "弾薬を消費して弾を発射し、与えたダメージの<c00cc00><!card.accessory.skill.projectile.lifestealpercent>％</c>分のHPを回復する。3回使用するとクールダウンに入る。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ダメ押し",
+          "description": "必殺技に当たったすべての敵は、ダッシュの最大距離まで押し戻され、<c00cc00><!card.value2.ticksAsSeconds>秒間</c>にわたって気絶する。"
+        },
+        {
+          "name": "重税",
+          "description": "必殺技の発動中に受けるダメージが<c00cc00><!card.trait.statuseffect.shieldpercent></c>％減少する。敵に攻撃を当てると<c00cc00>30％</c>のシールドが<c00cc00>3秒間</c>発動する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 26,
+      "reloadTimeMs": 1600,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000038,
+      "name": "サージ",
+      "description": "サージは特別に改良された飲料販売機だ。パーティー会場では、ビートに合わせてノリノリのダンスを披露しながら、無限にエナジードリンクを提供する。",
+      "rarity": "レジェンドレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000038.png",
+      "gadgets": [
+        {
+          "name": "パワーサージ",
+          "description": "出力全開！<c00cc00><!card.accessory.statusEffectAlly.duration.ticksAsSeconds></c>秒間にわたり、必殺技のチャージ率が<c00cc00><!card.accessory.statusEffectAlly.ultiChargeBoostPercent>％</c>上昇する。"
+        },
+        {
+          "name": "パワーシールド",
+          "description": "発動してから<c00cc00><!card.accessory.statusEffectAlly.duration.ticksAsSeconds></c>秒以内にダメージを受けると、そのダメージを<c00cc00><!card.accessory.statusEffectAlly.shieldPercent>％</c>軽減して、弾を<c00cc00><!card.accessory.statusEffectAlly.actionsOnCancelOnDamage.values></c>発リロードする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "マキシマムショット",
+          "description": "壁に当たった通常攻撃が跳弾する。"
+        },
+        {
+          "name": "ベストタイミング",
+          "description": "リスポーン時に必殺技がフルチャージされる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 680,
+      "attackRange": 20,
+      "reloadTimeMs": 2000,
+      "isThrower": false,
+      "movementLabels": [
+        "低速"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000037,
+      "name": "スプラウト",
+      "description": "スプラウトは一見するとローサのバイオドームを手伝うキュートな園芸ロボットだが、実は車輪付きの培養カプセルで、ピンクの奇妙な種を育てている。",
+      "rarity": "ウルトラレア",
+      "className": "グレネーディア",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000037.png",
+      "gadgets": [
+        {
+          "name": "花畑の保護土",
+          "description": "やぶを消費してHPを<c00cc00><VALUE1></c>回復する。"
+        },
+        {
+          "name": "トランスプラント",
+          "description": "生成した生け垣ブロックを破壊する代わりに、必殺技のゲージを瞬時に満タンにする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "急速成長",
+          "description": "発射する種爆弾の爆発半径が大きくなる。この効果は<c00cc00><VALUE1></c>秒ごとに使用できる。"
+        },
+        {
+          "name": "光合成",
+          "description": "やぶの中にいる間はシールドが発生し、すべての攻撃からある程度守ってくれる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "artillery",
+      "movementSpeed": 720,
+      "attackRange": 15,
+      "reloadTimeMs": 1500,
+      "isThrower": true,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000036,
+      "name": "ナーニ",
+      "description": "ナーニはジェシーを監視するように改良されたセキュリティカメラだが、ジェシーがすばしっこすぎて、なかなか追いつけないようだ。",
+      "rarity": "ハイパーレア",
+      "className": "スナイパー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000036.png",
+      "gadgets": [
+        {
+          "name": "ワープタイム",
+          "description": "ピープが最後にいた場所にワープして、必殺技を終了する。"
+        },
+        {
+          "name": "差し戻し",
+          "description": "発動してから<c00cc00><VALUE2></c>秒以内に敵からダメージを受けると、最初のダメージの<c00cc00><VALUE1>％</c>をその敵に返す。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "オートフォーカス",
+          "description": "ピープが移動距離に基づいて最大<c00cc00><VALUE1></c>の追加ダメージを与える。"
+        },
+        {
+          "name": "強化鋼",
+          "description": "必殺技発動中に受けるダメージが<c00cc00><VALUE1>％</c>低下する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "marksman",
+      "movementSpeed": 720,
+      "attackRange": 26,
+      "reloadTimeMs": 1800,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 5000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000035,
+      "name": "ゲイル",
+      "description": "ゲイルはミスターPのスノーテルで働く除雪作業員。いい教育係がいないせいか、周りに宿泊客がいても平気で作業を継続する。",
+      "rarity": "ハイパーレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000035.png",
+      "gadgets": [
+        {
+          "name": "バネジャンプ",
+          "description": "ゲイルは足元にジャンプ台を置いて、味方も敵も空中に跳ね上げる。"
+        },
+        {
+          "name": "ツイスター",
+          "description": "噴射機で小さな竜巻を起こし、通り抜けようとする敵を押し戻す。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "暴風",
+          "description": "必殺技で押し戻されて障害物に激突した敵は<c00cc00><VALUE1></c>秒間気絶する。"
+        },
+        {
+          "name": "凍てつく雪",
+          "description": "雪玉に当たった敵は、<c00cc00><!card.statuseffect.duration.ticksasseconds></c>秒にわたってスローダウンする。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 25,
+      "reloadTimeMs": 1200,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000034,
+      "name": "ジャッキー",
+      "description": "鉱山作業員のジャッキーは、仕事での武勇伝を語り始めると、つい言葉づかいが荒くなってしまう。しかし幸いなことに、削岩機の轟音のおかげで汚い言葉はかき消される。",
+      "rarity": "スーパーレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000034.png",
+      "gadgets": [
+        {
+          "name": "圧縮空気ブースター",
+          "description": "力を全身にみなぎらせ、<c00cc00><!card.accessory.statuseffectself.duration.ticksasseconds></c>秒間<c00cc00><!card.accessory.statuseffectself.speedboostpercent></c>％移動速度が上がる。"
+        },
+        {
+          "name": "再建",
+          "description": "周囲にある障害物を作り直す。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "カウンタークラッシュ",
+          "description": "ダメージを受けると、グラウンドブレイカーで反撃し<c00cc00><VALUE1>％</c>のダメージを相手に返す。"
+        },
+        {
+          "name": "ガチガチヘルメット",
+          "description": "被っている硬いヘルメットのおかげで、受けるダメージが<c00cc00><VALUE1>％</c>減少する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 770,
+      "attackRange": 10,
+      "reloadTimeMs": 1800,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000032,
+      "name": "MAX",
+      "description": "エナジードリンクが原動力のMAXは、助けを必要とする人がいれば全速力で駆けつける。忙しいゆえに最後まで世話することはまずないが、初動だけは最速だ！",
+      "rarity": "ウルトラレア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000032.png",
+      "gadgets": [
+        {
+          "name": "ギアチェンジャー",
+          "description": "前にダッシュする。ダッシュしている間は、敵から受けるダメージがすべて無効になる。"
+        },
+        {
+          "name": "スニークスニーカー",
+          "description": "使用時に雷を落とし、再起動するか<c00cc00><!card.accessory.skill.projectile.spawnAreaEffectObject.timeMs.msAssec></c>秒が経過したタイミングで雷の位置に戻り、その間に受けたすべてのダメージも回復する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "スーパーチャージ",
+          "description": "通常攻撃が敵にヒットすると必殺技の効果時間が<c00cc00><!card.component.value.ticksAsSeconds></c>秒延長される。"
+        },
+        {
+          "name": "ダッシュリロード",
+          "description": "移動中のリロード速度が上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 820,
+      "attackRange": 25,
+      "reloadTimeMs": 1300,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7000,
+      "ammoCount": 4,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000031,
+      "name": "ミスターP",
+      "description": "ホテル経営に四苦八苦するミスターPは、自分のことは棚に上げ、常に従業員に怒声を浴びせている。しかし、基本的には何を言っているのか分からないらしい。",
+      "rarity": "ウルトラレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000031.png",
+      "gadgets": [
+        {
+          "name": "サービスベル",
+          "description": "出現しているポーターのダメージを<c00cc00><VALUE1></c>、HPを<c00cc00><VALUE2></c>強化する。"
+        },
+        {
+          "name": "応援ポーター",
+          "description": "次の通常攻撃の落下地点に、低出力のポーターを1体出現させる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "真心込めて",
+          "description": "次に投げるスーツケースによる爆発ダメージが、<c00cc00><VALUE1></c>秒間のチャージ後に<c00cc00><VALUE2>％</c>増加する。"
+        },
+        {
+          "name": "回転扉",
+          "description": "拠点から召喚されるロボットポーターのHPが<c00cc00><VALUE1>％</c>、敵に与えるダメージが<c00cc00><VALUE2>％</c>増加する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 21,
+      "reloadTimeMs": 1600,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000030,
+      "name": "Emz",
+      "description": "本来は叔父のモーティスを手伝うことになっているEmzだが、自己プロデュースしたヘアスプレーのオンライン販売に夢中で、葬儀場に現れることは滅多にない。",
+      "rarity": "ハイパーレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000030.png",
+      "gadgets": [
+        {
+          "name": "フレンドゾーン",
+          "description": "スプレーを発射して敵をノックバックさせ、<c00cc00><!card.accessory.skill.damage.scaleToLevel></c>ダメージを与える。"
+        },
+        {
+          "name": "酸性スプレー",
+          "description": "壁を貫通するスプレーを発射し、命中した敵に<c00cc00><!card.accessory.skill.damage.scaleToLevel></c>ダメージを与える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "因果応報",
+          "description": "彼女のヘアスプレーの範囲内にいる敵は、時間の経過とともに<c00cc00><VALUE1>％</c>ずつ受けるダメージが増加する。"
+        },
+        {
+          "name": "元気注入",
+          "description": "必殺技の範囲内にいる敵1体につき、EmzのHPが毎秒<c00cc00><VALUE1></c>回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 20,
+      "reloadTimeMs": 2000,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000029,
+      "name": "ビー",
+      "description": "ビーの趣味は、のんびりと生きる昆虫たちの暮らしぶりを一日中観察すること。虫が喋れたら何を話すのか...？もしくは自分が虫だったら...？ビーの脳内は虫でいっぱい。",
+      "rarity": "ハイパーレア",
+      "className": "スナイパー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000029.png",
+      "gadgets": [
+        {
+          "name": "ハニーモラセス",
+          "description": "ネバネバのはちみつが付いたハチの巣を設置し、あふれ出た蜜に触れた敵をスローダウンさせる。"
+        },
+        {
+          "name": "荒くれバチ",
+          "description": "怒ったハチ<c00cc00><VALUE1></c>匹が、渦を描くように周囲を飛び回る。ハチが遠くに行くほど、与えるダメージも大きくなる（最大<c00cc00><VALUE2></c>ダメージ）。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ロイヤルゼリー",
+          "description": "ブーストされた攻撃を外した場合、もう1ショット分の「針の一撃」を瞬時にパワーアップする。"
+        },
+        {
+          "name": "ハニカム",
+          "description": "通常攻撃がパワーアップしている間、シールドを発動してダメージを<c00cc00><VALUE1>％</c>軽減する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "marksman",
+      "movementSpeed": 720,
+      "attackRange": 30,
+      "reloadTimeMs": 900,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 5600,
+      "ammoCount": 1,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000028,
+      "name": "サンディ",
+      "description": "常にうたた寝状態のサンディだが、たまに目を覚ますと、姉のタラの店を手伝うこともあるらしい。",
+      "rarity": "レジェンドレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000028.png",
+      "gadgets": [
+        {
+          "name": "睡眠刺激薬",
+          "description": "<c00cc00><VALUE1></c>秒間眠りに落ちるが、HPが全回復する。"
+        },
+        {
+          "name": "甘い夢",
+          "description": "次の通常攻撃で、敵を<c00cc00><VALUE1></c>秒間眠りに落とす。ただし、敵はダメージを受けると目を覚ます。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "荒ぶる砂",
+          "description": "砂嵐が、範囲内にいる敵に毎秒<c00cc00><VALUE1></c>ダメージを与えるようになる。"
+        },
+        {
+          "name": "癒しの風",
+          "description": "砂嵐が、範囲内にいる味方のHPを毎秒<c00cc00><VALUE1></c>回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 770,
+      "attackRange": 18,
+      "reloadTimeMs": 1800,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000027,
+      "name": "8ビット",
+      "description": "クリア困難なゲームマシーンとして有名な8ビットは、いつまでも優秀な挑戦者が現れないことにうんざりしている。おまけに片方のガンを失ったことで、怒りのボルテージが最高潮だとか。",
+      "rarity": "スーパーレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000027.png",
+      "gadgets": [
+        {
+          "name": "裏技カセット",
+          "description": "ダメージブースターの位置まで瞬時にテレポートする。"
+        },
+        {
+          "name": "ボーナスクレジット",
+          "description": "弾薬を消費して、弾を<c00cc00><!card.accessory.skill.areaEffect.bulletExplosionTriggerCount></c>発発射する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ブースターブースト",
+          "description": "ダメージブースターの効果範囲が<c00cc00><!arcade.largerAreaUlti.rangePercent>％</c>拡大し、与えるダメージがさらに<c00cc00><!arcade.largerAreaUlti.damageDelta>％</c>増加する。"
+        },
+        {
+          "name": "ワイヤレス充電",
+          "description": "ダメージブースターの近くにいる間、移動速度が<c00cc00><!card.projectile.statusEffectAlly.speedBoostPercent>％</c>上昇する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 580,
+      "attackRange": 30,
+      "reloadTimeMs": 1350,
+      "isThrower": false,
+      "movementLabels": [
+        "超低速"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000026,
+      "name": "ビビ",
+      "description": "ビビはトレードマークの金属バットと、負けん気の強い性格を持つパンクガール。実はヲタク気質だが、イメージ維持のためにもみんなには内緒にしている。",
+      "rarity": "ハイパーレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000026.png",
+      "gadgets": [
+        {
+          "name": "ビタミンブースター",
+          "description": "<c00cc00><!card.value2></c>秒間、毎秒<c00cc00><!card.value1></c>ずつHPを回復する。"
+        },
+        {
+          "name": "増強ガム",
+          "description": "風船ガムを投げ付け、範囲内に入った敵に<c00cc00><!card.accessory.skill.projectile.spawnareaeffectobject.statuseffectenemy.speedreducepercent>％</c>のスローダウン効果を与える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "盗塁王",
+          "description": "ホームランゲージが満タンの間、移動速度が<c00cc00><!card.statuseffect.speedboostpercent>％</c>向上する。"
+        },
+        {
+          "name": "打撃の構え",
+          "description": "ホームランゲージが満タンの間、受けるダメージが<c00cc00><VALUE1>％</c>減少する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 820,
+      "attackRange": 11,
+      "reloadTimeMs": 800,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000025,
+      "name": "カール",
+      "description": "採掘ロボットのカールにとって、最大の関心事は岩と鉱石。ここのところは、エメラルドの知られざる効能について調べるのに夢中らしい。",
+      "rarity": "スーパーレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000025.png",
+      "gadgets": [
+        {
+          "name": "灼熱イジェクター",
+          "description": "次の通常攻撃で、ツルハシの下にアツアツの石を落とす。石に触れた敵は引火し、毎秒<c00cc00><VALUE1></c>ダメージを受ける。"
+        },
+        {
+          "name": "空飛ぶフック",
+          "description": "次の攻撃で、投げたツルハシの最高到達点まで自分を引き寄せる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "力投",
+          "description": "カールが投げるツルハシの速度が<c00cc00><VALUE1>％</c>増加し、より早く戻って来るようになる。"
+        },
+        {
+          "name": "防護スピン",
+          "description": "必殺技の発動中は、受けるダメージが<c00cc00><VALUE2>％</c>減少する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 25,
+      "reloadTimeMs": 2000,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8400,
+      "ammoCount": 1,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000024,
+      "name": "ローサ",
+      "description": "ローサは草花に魅了された植物学者兼ボクサー。しかし、大切に育ててきた植物であろうとも、彼女に手を出そうものなら容赦ない一撃を食らわせる。",
+      "rarity": "レア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000024.png",
+      "gadgets": [
+        {
+          "name": "成長促進ライト",
+          "description": "周囲の地面に肥料を撒くと、瞬時にやぶが出現し、身を隠すことができる。"
+        },
+        {
+          "name": "やぶの反撃",
+          "description": "やぶの中に隠れている敵全員に<c00cc00><!card.character.weaponskill.damage.scaleaccessoryvalue3.scaletolevel></c>ダメージを与え、<c00cc00><!card.accessory.statuseffectenemy.duration.ticksasseconds></c>秒間スローダウンさせる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "雑草魂",
+          "description": "やぶに入ると自身のHPが毎秒<c00cc00><VALUE1></c>回復する。"
+        },
+        {
+          "name": "トゲトゲグローブ",
+          "description": "必殺技の発動中は、パンチのダメージが<c00cc00>+<VALUE1></c>増加する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 770,
+      "attackRange": 11,
+      "reloadTimeMs": 1000,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000023,
+      "name": "レオン",
+      "description": "集団行動が苦手なレオンにとって、煙玉はちょうど良い隠れ蓑だが、妹のニタとは心が通じ合っている。",
+      "rarity": "レジェンドレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000023.png",
+      "gadgets": [
+        {
+          "name": "クローンプロジェクター",
+          "description": "自分の分身を召喚し、敵をかく乱する。分身が敵を攻撃して小ダメージを与える。"
+        },
+        {
+          "name": "ロリポップドロップ",
+          "description": "キャンディを放り投げ、味方が透明になるエリアを作り出す。キャンディのHPは時間とともにゆっくりと減少する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "煙遁の術",
+          "description": "レオンが透明になると、透明化中の移動速度が<c00cc00><!card.statuseffect.speedboostpercent>％</c>ブーストされる。"
+        },
+        {
+          "name": "インビジヒール",
+          "description": "必殺技の発動中、レオンのHPが毎秒<c00cc00><!card.character.maxHealth.scaleToLevel.scaleCardValue1></c>回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 29,
+      "reloadTimeMs": 1900,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000022,
+      "name": "ティック",
+      "description": "ティックは大志を抱くペニーに魅せられ、子分のように後を追っている。何かを爆破させるのが唯一の特技だが、それがあればバトルでは十分に通用する！",
+      "rarity": "スーパーレア",
+      "className": "グレネーディア",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000022.png",
+      "gadgets": [
+        {
+          "name": "地雷マニア",
+          "description": "次の攻撃で、<c00cc00><VALUE1></c>個の地雷を投げる。"
+        },
+        {
+          "name": "最後のひと踏ん張り",
+          "description": "<c00cc00><VALUE1></c>秒間にわたってシールドを発動し、ダメージを<c00cc00><VALUE3>％</c>軽減する。効果時間が過ぎると、シールドが爆発して<c00cc00><VALUE2></c>ダメージを与える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "潤滑良好",
+          "description": "ダメージを受けず攻撃も行わなければ、ティックのHPが通常より<c00cc00><VALUE1></c>秒速く回復する。"
+        },
+        {
+          "name": "オートマ・ティック装填",
+          "description": "リロード時間が<c00cc00><VALUE1>％</c>短縮される。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "artillery",
+      "movementSpeed": 720,
+      "attackRange": 26,
+      "reloadTimeMs": 2400,
+      "isThrower": true,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "超低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 4800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000021,
+      "name": "ジーン",
+      "description": "小柄でエスニックな風貌が注目されがちなジーンだが、ひょんなことから肉体とランプに人格が分離した事実の方が、よほど注目に値する。",
+      "rarity": "ウルトラレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000021.png",
+      "gadgets": [
+        {
+          "name": "風おこしランプ",
+          "description": "近くにいる敵全員を瞬時にノックバックする。効果範囲内に敵が1体以上いた場合、自身の最大HPの<c00cc00><VALUE1>％</c>を回復する。"
+        },
+        {
+          "name": "復讐心",
+          "description": "射程内にいるすべての敵に、広範囲にわたってホーミングミサイルを発射し、距離に応じて最大<c00cc00><VALUE2></c>ダメージを与える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "魔法の吐息",
+          "description": "周囲にいる仲間のHPが毎秒<c00cc00><VALUE1></c>回復する。"
+        },
+        {
+          "name": "一発入魂",
+          "description": "魔法の手で敵にダメージも与えることができる（命中ダメージ<c00cc00><VALUE1></c>）。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 17,
+      "reloadTimeMs": 2000,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000020,
+      "name": "フランケン",
+      "description": "心優しい大男のフランケンは、日中は葬儀場で、夜はクラブでDJとして活動している。顔色の悪さは、慢性的な睡眠不足が原因に違いない。",
+      "rarity": "ハイパーレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000020.png",
+      "gadgets": [
+        {
+          "name": "ノイズキャンセリング",
+          "description": "狙った方向に音波を発射して敵に<c00cc00><!card.accessory.skill.damage.scaleToLevel></c>ダメージを与えると同時に、<c00cc00><!card.accessory.skill.activationSelfStatusEffect.duration.ticksAsSeconds></c>秒間にわたって自身に対する状態異常を無効にする。"
+        },
+        {
+          "name": "不可抗力",
+          "description": "敵を自分の方向に引き寄せる遠距離攻撃を放ち、命中した敵に<c00cc00><!card.accessory.skill.damage.scaleToLevel></c>ダメージを与える。使用時には通常攻撃の弾を消費。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "生気泥棒",
+          "description": "倒した敵の生気を吸い取ることで、<VALUE2>秒間にわたってダメージが<c00cc00><VALUE1>％</c>増加する！"
+        },
+        {
+          "name": "スポンジ",
+          "description": "自身のHPが<c00cc00>+<VALUE1></c>増加する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 770,
+      "attackRange": 18,
+      "reloadTimeMs": 800,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 13600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000019,
+      "name": "ペニー",
+      "description": "ペニーは宝の地図や船乗りの歌などにはまったく興味がない。手あたり次第に銃をぶっ放し、欲しいものを得るタイプの海賊だ！",
+      "rarity": "スーパーレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000019.png",
+      "gadgets": [
+        {
+          "name": "ソルティーバレル",
+          "description": "塩の入ったタルを出現させて敵の攻撃を防ぐ。自らタルを攻撃すると、袋の金貨が拡散される。"
+        },
+        {
+          "name": "カリブの望遠鏡",
+          "description": "ペニーの大砲が、射程内の見える敵すべてに砲撃を放つ。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "お宝ザクザク",
+          "description": "金貨の飛び散る範囲が、敵に命中するたびに<c00cc00><VALUE1>％</c>広くなる。"
+        },
+        {
+          "name": "マスターブラスター",
+          "description": "大砲を配置した場所にいる敵をノックバックし、<c00cc00><VALUE1></c>ダメージを与える。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 26,
+      "reloadTimeMs": 2000,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000018,
+      "name": "ダリル",
+      "description": "怠け者な性分から海賊になったはずのダリルだが、自分の船を敵から毎日防衛するハメになるとは... 本末転倒とはこのことか。",
+      "rarity": "スーパーレア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000018.png",
+      "gadgets": [
+        {
+          "name": "パワースプリング",
+          "description": "身体を回転させながら、あらゆる方向に弾丸を放つ。弾丸1発につき<c00cc00><VALUE1></c>ダメージを与え、敵に命中すると必殺技ゲージが<c00cc00><VALUE2>％</c>ずつ溜まっていく。"
+        },
+        {
+          "name": "タールバレル",
+          "description": "敵の移動速度を低下させるエリアを周囲に<c00cc00><VALUE1></c>秒間生成する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "鋼の盾",
+          "description": "バレルロールを発動すると、受けるダメージを<c00cc00><VALUE1></c>秒にわたって<c00cc00><VALUE2>％</c>軽減する。"
+        },
+        {
+          "name": "瞬速リロード",
+          "description": "必殺技を発動すると、リロード速度が<c00cc00><VALUE1></c>秒間2倍になる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 770,
+      "attackRange": 18,
+      "reloadTimeMs": 1800,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 11000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": true
+    },
+    {
+      "id": 16000017,
+      "name": "タラ",
+      "description": "タラはタロットカード占いで自らが遭遇するであろう困難を予見したが、怪しい宝石の販売でどうにかやっていけそうだと踏んでいる。",
+      "rarity": "ウルトラレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000017.png",
+      "gadgets": [
+        {
+          "name": "サイキック活性化剤",
+          "description": "自分と味方が、やぶに隠れている敵全員を<c00cc00><VALUE1></c>秒間にわたって見透かすことができるようになる。"
+        },
+        {
+          "name": "彼方の使者",
+          "description": "自分の周りに弱い影を3体出現させ、敵を攻撃させる。影は<c00cc00><VALUE1></c>秒経つと消える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "影武者",
+          "description": "神秘の力で次元の扉が開かれる...！彼女の影が現れて、次々に敵を攻撃する。"
+        },
+        {
+          "name": "癒しの影",
+          "description": "異次元の空間から解き放たれたタラの影が、自身やチームメイトを回復する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 24,
+      "reloadTimeMs": 1800,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000016,
+      "name": "パム",
+      "description": "パワフルなシングルマザーのパムは、廃品置き場で膨大な仕事量を毎日完璧にこなしているが、一人娘のジェシーの面倒を見られない葛藤に苛まれている。",
+      "rarity": "ハイパーレア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000016.png",
+      "gadgets": [
+        {
+          "name": "パルスモジュレーター",
+          "description": "タレットから波動を発生させ、射程内にいる味方と自分のHPを<c00cc00><VALUE1></c>回復する。"
+        },
+        {
+          "name": "ガラクタ吸収",
+          "description": "次の通常攻撃が命中すると、弾丸1発ごとに敵キャラクターの最大装弾数の<c00cc00><VALUE1>％</c>を減少させ、その内<c00cc00><VALUE2>％</c>を自分にチャージする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ママの抱擁",
+          "description": "メタルストームで敵を攻撃するたび、自身と周辺の仲間のHPが<c00cc00><VALUE1></c>回復する。"
+        },
+        {
+          "name": "ママのベアハッグ",
+          "description": "癒しのタレットが、敵に毎秒<c00cc00><VALUE1></c>ダメージを与えるようになる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 720,
+      "attackRange": 27,
+      "reloadTimeMs": 1300,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000015,
+      "name": "エリザベス",
+      "description": "エリザベスの夢は、故郷の村でパイやクッキー、お菓子を焼いてお店を切り盛りすること。彼女の過去については詮索しないように。",
+      "rarity": "ハイパーレア",
+      "className": "スナイパー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000015.png",
+      "gadgets": [
+        {
+          "name": "自動照準器",
+          "description": "一番近くにいる敵に高速で射撃を浴びせ、<c00cc00><VALUE2></c>ダメージを与えてノックバックさせる。"
+        },
+        {
+          "name": "ホームメイドレシピ",
+          "description": "使用すると、エリザベスの次の通常攻撃が敵にホーミングされる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "待ち伏せ",
+          "description": "やぶに隠れた状態で攻撃すると、最大射程において<c00cc00>+<VALUE1></c>の追加ダメージが発生する。"
+        },
+        {
+          "name": "スナッピースナイプ",
+          "description": "敵にダメージを与えた際に、<c00cc00><VALUE1></c>発の弾を瞬時にリロードする。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "marksman",
+      "movementSpeed": 720,
+      "attackRange": 30,
+      "reloadTimeMs": 2300,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "超低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 5600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000014,
+      "name": "ボウ",
+      "description": "ボウはジャングルの厳しい世界を生き抜いてきた勇敢な戦士だが、驚くべきことに、彼の武器はギフトショップで買ったおもちゃ一択である。",
+      "rarity": "ハイパーレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000014.png",
+      "gadgets": [
+        {
+          "name": "スーパートーテム",
+          "description": "トーテムを出現させ、仲間の必殺技のチャージ率を<c00cc00><!card.accessory.skill.summonedCharacter.areaEffect.customValue1>％</c>増加させる。トーテムのHPは時間とともに少しずつ減少する。"
+        },
+        {
+          "name": "ワイヤートラップ",
+          "description": "<c00cc00><VALUE1></c>秒後にすべての地雷を起爆させる。起爆するまで、敵は地雷がどこにあるか分からない。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "鷹の目",
+          "description": "やぶに隠れた敵を、通常の<c00cc00><VALUE1>％</c>の距離から見つけられる。"
+        },
+        {
+          "name": "ベアトラップ",
+          "description": "トラップが敵を<c00cc00><VALUE1></c>秒間気絶させる（ノックバックは無効）。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 26,
+      "reloadTimeMs": 1700,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000013,
+      "name": "ポコ",
+      "description": "音楽には人生を変える力があると信じているポコ。日々真剣に音楽と向き合い、たとえ誰かからやめるよう言われても、メロディーを奏で続ける！",
+      "rarity": "レア",
+      "className": "サポート",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000013.png",
+      "gadgets": [
+        {
+          "name": "癒しの音叉",
+          "description": "自分と周囲にいる味方のHPが<c00cc00><VALUE2></c>秒間、毎秒<c00cc00><VALUE1></c>回復する。"
+        },
+        {
+          "name": "護りのメロディー",
+          "description": "味方の状態異常を癒す効果を広範囲に発動し、状態異常攻撃を<c00cc00><VALUE2></c>秒間無効にする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "ダ・カーポ！",
+          "description": "彼の攻撃が仲間に当たると、その仲間のHPが<c00cc00><VALUE1></c>回復する。"
+        },
+        {
+          "name": "むせび泣くギター",
+          "description": "必殺技が、敵に対して<c00cc00><VALUE1></c>ダメージを与える。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "support",
+      "movementSpeed": 720,
+      "attackRange": 21,
+      "reloadTimeMs": 1600,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000012,
+      "name": "クロウ",
+      "description": "クロウは人を信じず、思いを内に秘めるタイプではあるが、ブルやビビと一緒に食事する姿をたびたび目撃されている。",
+      "rarity": "レジェンドレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000012.png",
+      "gadgets": [
+        {
+          "name": "クイックトキシック",
+          "description": "クロウの毒がまわっている敵に対して、残りの毒ダメージを即座に与え、自身は与えたダメージの<c00cc00><!card.accessory.customValue2>％</c>分のシールドを得る。"
+        },
+        {
+          "name": "スローダウンポイズン",
+          "description": "クナイを投げてダメージを与え、最初にヒットした敵を<c00cc00><!card.accessory.skill.projectile.statusEffectEnemy.duration.ticksAsSeconds>秒</c>間スローダウン＆毒状態にする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "猛毒",
+          "description": "毒がまわった敵はパワーを奪われ、その間に与えるダメージが<c00cc00><VALUE1>％</c>低減する。"
+        },
+        {
+          "name": "カリオン・クロウ",
+          "description": "HPが<VALUE2>％以下の敵に対して、クロウの通常攻撃と必殺技で<c00cc00>+<VALUE1>％</c>の追加ダメージが発生する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 26,
+      "reloadTimeMs": 1600,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 5600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000011,
+      "name": "モーティス",
+      "description": "モーティスは葬儀屋兼ヴァンパイアの二足のわらじで壮大な人生計画を構想していたものの、誰もが不死身のスターパークでは、彼の計画は頓挫してしまった模様。",
+      "rarity": "ウルトラレア",
+      "className": "アサシン",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000011.png",
+      "gadgets": [
+        {
+          "name": "コンボスピナー",
+          "description": "シャベルを回転させてコウモリを召喚し、近くの敵に<c00cc00><!card.accessory.skill.damage.scaleToLevel></c>ダメージを与える。エイム操作も可能。"
+        },
+        {
+          "name": "闇夜の怪物",
+          "description": "コウモリの群れに変身し、指定地点まで移動する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "魂狩り",
+          "description": "倒した敵の魂を刈り取ることで、自身の最大HPの<c00cc00><VALUE1>％</c>を回復する。"
+        },
+        {
+          "name": "蛇の跳躍",
+          "description": "長距離ダッシュのチャージにかかる時間が<c00cc00><VALUE1></c>秒短くなる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "assassin",
+      "movementSpeed": 820,
+      "attackRange": 8,
+      "reloadTimeMs": 2400,
+      "isThrower": false,
+      "movementLabels": [
+        "超高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000010,
+      "name": "エル・プリモ",
+      "description": "エル・プリモは常にみんなの注目の的で、本人もまんざらでもない様子。誰もがたちまち彼の虜になるが、共演者たちは白い目で見ている...",
+      "rarity": "レア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000010.png",
+      "gadgets": [
+        {
+          "name": "スープレックスサプリ",
+          "description": "手近な敵をつかんで、パンケーキをひっくり返すようにヒラリと後ろに投げ飛ばす。"
+        },
+        {
+          "name": "アステロイドベルト",
+          "description": "小惑星を召喚して最も近くにいる敵にぶつける。<c00cc00><VALUE1></c>ダメージを与え、壁を破壊する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "バーニングドロップ",
+          "description": "彼の必殺技の標的となった敵は、4秒間にわたり炎に包まれ<c00cc00><VALUE1></c>ダメージを受ける。"
+        },
+        {
+          "name": "流星雨",
+          "description": "必殺技の発動後、<c00cc00><!card.statuseffect.duration.ticksasseconds></c>秒にわたって速度が<c00cc00><!card.statuseffect.speedboostpercent>％</c>ブーストされる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 770,
+      "attackRange": 9,
+      "reloadTimeMs": 800,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "短距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 13000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000009,
+      "name": "ダイナマイク",
+      "description": "ベテラン炭鉱夫のダイナマイクは爆発物の虜になっている。轟く爆発音が最高の酒のつまみだとか。",
+      "rarity": "スーパーレア",
+      "className": "グレネーディア",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000009.png",
+      "gadgets": [
+        {
+          "name": "危機一髪スピナー",
+          "description": "激しく身体を回転させて、当たった敵に<c00cc00><!card.character.weaponskill.damage.scaletolevel.scaleaccessoryvalue3></c>のダメージを与えるダイナマイトを、勢いよく周囲にまき散らす。回転中は移動速度が<c00cc00><!card.accessory.statuseffectself.speedboostpercent></c>％アップする。"
+        },
+        {
+          "name": "梱包爆薬",
+          "description": "使用すると、次の通常攻撃は敵を<c00cc00><VALUE1></c>秒間気絶させる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "爆風ジャンプ",
+          "description": "自ら生み出す爆風に乗って、障害物を飛び越える！"
+        },
+        {
+          "name": "解体屋",
+          "description": "必殺技に<c00cc00>+<VALUE1></c>ダメージを追加する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "artillery",
+      "movementSpeed": 770,
+      "attackRange": 22,
+      "reloadTimeMs": 1400,
+      "isThrower": true,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000008,
+      "name": "ニタ",
+      "description": "ニタは敵にどこまでも食い下がる勇猛果敢な性格の持ち主。クマの被り物は単なる脅し道具ではないため、目を合わせないように気をつけるべし...",
+      "rarity": "レア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000008.png",
+      "gadgets": [
+        {
+          "name": "クマの手",
+          "description": "クマが地面を強烈に叩いて、効果範囲内のすべての敵を気絶させる。"
+        },
+        {
+          "name": "フェイクファー",
+          "description": "クマへのダメージを<c00cc00><!card.accessory.activeTime.ticksAsSeconds></c>秒間にわたって<c00cc00><!card.accessory.value1>％</c>減少させるシールドを発動する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "森の絆",
+          "description": "クマが敵を攻撃するたびにニタのHPが<c00cc00><VALUE1></c>回復し、ニタが敵にダメージを与えるとクマのHPが<c00cc00><VALUE2></c>回復する。"
+        },
+        {
+          "name": "ハイパーベア",
+          "description": "クマの攻撃速度が上がる。攻撃の間隔は<c00cc00><VALUE1>％</c>減少する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 18,
+      "reloadTimeMs": 1100,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 8400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000007,
+      "name": "ジェシー",
+      "description": "ジェシーは廃品置き場で拾った物から銃や小道具を作ってしまう天才児。母親のパムも、我が子の様子を見たら安心するに違いない。",
+      "rarity": "スーパーレア",
+      "className": "コントローラー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000007.png",
+      "gadgets": [
+        {
+          "name": "スパークプラグ",
+          "description": "タレットから衝撃波を出し、効果範囲内のすべての敵の動きをスローダウンさせる。"
+        },
+        {
+          "name": "リコイルスプリング",
+          "description": "がらくタレットの攻撃速度が、<c00cc00><VALUE1></c>秒間2倍になる。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "リチャージ",
+          "description": "自分の攻撃でタレットに電気を送り込むことで、失ったHPを<c00cc00><VALUE1></c>回復できる。"
+        },
+        {
+          "name": "ショッキング",
+          "description": "がらくタレットが、敵から敵へと跳ね返るエネルギー弾を発射するようになる。跳ねた後の飛距離は、通常の<c00cc00><VALUE1>％</c>となる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "controller",
+      "movementSpeed": 720,
+      "attackRange": 27,
+      "reloadTimeMs": 1800,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6600,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000006,
+      "name": "バーリー",
+      "description": "カクテルを作って常連客の相手をするよう設計されたバーテンダーロボットのバーリーは、衛生管理にこだわりすぎて、少しでもバーを汚した客をボコボコにしてしまう。",
+      "rarity": "レア",
+      "className": "グレネーディア",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000006.png",
+      "gadgets": [
+        {
+          "name": "ネバネバシロップミキサー",
+          "description": "ネバネバの混ぜものを落として水たまりを作る。触れた敵は動きが遅くなる。"
+        },
+        {
+          "name": "薬草の強壮剤",
+          "description": "回復ポーションを近くに味方に投げ、1秒につき<c00cc00><VALUE1></c>回復させるエリアをつくりだす。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "百薬の長",
+          "description": "通常攻撃をするたびにHPが<c00cc00><VALUE1></c>回復する。"
+        },
+        {
+          "name": "超猛毒",
+          "description": "自身の攻撃に毎秒<c00cc00>+<VALUE1></c>ダメージを追加。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "artillery",
+      "movementSpeed": 720,
+      "attackRange": 22,
+      "reloadTimeMs": 2000,
+      "isThrower": true,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 5400,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000005,
+      "name": "スパイク",
+      "description": "スパイクはコルトとシェリーの単なる同郷仲間だと思われがちだが、実は心に深い傷を抱えている。",
+      "rarity": "レジェンドレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000005.png",
+      "gadgets": [
+        {
+          "name": "破裂トゲクッション",
+          "description": "狙った方向にトゲの弾幕を発射し、<c00cc00><!card.accessory.skill.damage.scaleToLevel></c>ダメージを与える。"
+        },
+        {
+          "name": "ライフプラント",
+          "description": "<c00cc00><!card.accessory.skill.summonedCharacter.maxHealth.scaleToLevel></c>HPを持つ大きなサボテンを出現させ、味方の盾を作る。サボテンは破壊されると爆発して、周りにいる味方のHPを<c00cc00><!card.accessory.skill.cactusMinionHealing.scaleToLevel></c>回復する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "栄養補給",
+          "description": "必殺技で与えたダメージの<c00cc00><VALUE1>％</c>分を回復する。"
+        },
+        {
+          "name": "カーブシュート",
+          "description": "サボテンボムのトゲがカーブを描いて飛ぶようになり、敵に命中しやすくなる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 23,
+      "reloadTimeMs": 2000,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000004,
+      "name": "リコ",
+      "description": "リコは一見ただのガムボールマシンのような見た目だが、銀河系最凶の犯罪者ですら仕留めてしまう、宇宙一の賞金稼ぎ。",
+      "rarity": "スーパーレア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000004.png",
+      "gadgets": [
+        {
+          "name": "マルチボールランチャー",
+          "description": "自動販売機を設置する。自動販売機は<c00cc00><!card.accessory.skill.summonedcharacter.maxhealth></c>のHPを持ち、破壊されると全方位にバウンド弾を放出する。"
+        },
+        {
+          "name": "バウンシングヒール",
+          "description": "壁や敵キャラクターに当たった際に<c00cc00><!card.accessory.skill.projectile.chainbullets></c>個に分裂する巨大な弾丸を発射する。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "スーパーバウンド",
+          "description": "通常の攻撃および必殺技の弾丸が、最初のバウンドでさらにパワーを帯び、ダメージが<c00cc00><VALUE1></c>増加する。"
+        },
+        {
+          "name": "ロボ流退却",
+          "description": "HPが<c00cc00><!card.component[0].values[0]>％</c>を下回ると、移動速度が<c00cc00><!card.component[0].values[2]>％</c>速くなる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 29,
+      "reloadTimeMs": 1100,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "超長距離"
+      ],
+      "reloadLabels": [
+        "超高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000003,
+      "name": "ブロック",
+      "description": "表向きは毒舌なゲーマーだが、実は内気な性格のブロック。しかし、勝つためなら手段は選ばない！",
+      "rarity": "レア",
+      "className": "スナイパー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000003.png",
+      "gadgets": [
+        {
+          "name": "ロケットレース",
+          "description": "目標地点に向かって飛び掛かり、ジャンプ時と着地時に周囲の敵にノックバック効果と少量のダメージを与える。"
+        },
+        {
+          "name": "ロケット燃料",
+          "description": "地形を破壊する巨大なロケットを発射し、命中した敵にダメージを与える。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "集中豪雨",
+          "description": "必殺技で発射するロケットが<c00cc00><VALUE1>％</c>増加する。"
+        },
+        {
+          "name": "第4のロケット",
+          "description": "水筒を持ち運ぶのに使っていた4つ目の砲身に、4発目のロケットを装填する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "marksman",
+      "movementSpeed": 720,
+      "attackRange": 27,
+      "reloadTimeMs": 1950,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "低速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000002,
+      "name": "ブル",
+      "description": "ブルはケンカ三昧だった思春期ほど自由奔放ではないものの、売られたケンカを買う性分は相変わらずのようだ。",
+      "rarity": "レア",
+      "className": "タンク",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000002.png",
+      "gadgets": [
+        {
+          "name": "Tボーンミサイル",
+          "description": "キャラクターめがけて弾を投げて<c00cc00><!card.accessory.skill.damage.scaleToLevel></c>ダメージを与え、命中するとHPが<c00cc00><!card.accessory.skill.projectile.statusEffectSelfOnHit.healing></c>回復。"
+        },
+        {
+          "name": "エネミーシェーカー",
+          "description": "地面を踏みしめ、近くの敵をスローダウンさせる。すでにスローダウンしている敵はスタンする。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "暴れウシ",
+          "description": "HPが<c00cc00><VALUE1>％</c>以下になると、リロード速度が2倍に！"
+        },
+        {
+          "name": "タフガイ",
+          "description": "ブルのHPが<c00cc00><VALUE1>％</c>以下になるとシールドが発生し、受けるダメージがすべて<c00cc00><VALUE2>％</c>低減される。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "tank",
+      "movementSpeed": 770,
+      "attackRange": 16,
+      "reloadTimeMs": 1600,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "普通"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 10000,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000001,
+      "name": "コルト",
+      "description": "コルトと言えば、スターパークの名物キャラ！容姿端麗なカリスマは、巧みなガンスピンでシェリー以外の誰をも虜にしてしまう。",
+      "rarity": "レア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000001.png",
+      "gadgets": [
+        {
+          "name": "スピードローダー",
+          "description": "素早く2連射して命中した敵に<c00cc00><!card.accessory.skill.damage.scaleToLevel></c>ダメージを与え、スローダウンさせる。"
+        },
+        {
+          "name": "シルバーブレット",
+          "description": "オブジェクトを破壊して敵を貫通する弾を発射し、命中した敵に<c00cc00><!card.accessory.skill.damage.scaleToLevel></c>ダメージを与える。使用時には通常攻撃の弾を消費。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "すいすいブーツ",
+          "description": "移動速度が<c00cc00><!card.trait.statuseffect.speedboostpercent>％</c>増加する。"
+        },
+        {
+          "name": "マグナム・スペシャル",
+          "description": "攻撃範囲と弾速が<c00cc00><VALUE1>％</c>向上する。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 720,
+      "attackRange": 27,
+      "reloadTimeMs": 1300,
+      "isThrower": false,
+      "movementLabels": [
+        "普通"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "高速"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 6200,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    },
+    {
+      "id": 16000000,
+      "name": "シェリー",
+      "description": "タフで頼りがいがあり、ショットガンの腕前もピカイチなシェリー。それゆえに、コルトの方が脚光を浴びることに納得いかないらしい...",
+      "rarity": "レア",
+      "className": "アタッカー",
+      "imageURL": "https://cdn.brawlify.com/brawlers/borderless/16000000.png",
+      "gadgets": [
+        {
+          "name": "全速前進",
+          "description": "正面または狙った方向に向かってダッシュすると同時に、通常攻撃が完全にリロードされる！"
+        },
+        {
+          "name": "クレーピジョン",
+          "description": "通常攻撃の幅が狭くなり、射程距離が延びる。1回の発動につき<!card.accessory.skill.maxAmmo>回使用可能。"
+        }
+      ],
+      "starPowers": [
+        {
+          "name": "シェルショック",
+          "description": "スーパーシェルが敵の動きを<c00cc00><!card.value1.ticksasseconds></c>秒間鈍らせる！"
+        },
+        {
+          "name": "ばんそうこう",
+          "description": "HPが<c00cc00><VALUE1>％</c>を下回ると、瞬時に<c00cc00><VALUE2></c>回復する。再び発動するまでに<c00cc00><VALUE3></c>秒かかる。"
+        }
+      ],
+      "sourceIDs": [
+        "brawlapi",
+        "brawlapi-game-csv"
+      ],
+      "classKey": "damage_dealer",
+      "movementSpeed": 770,
+      "attackRange": 23,
+      "reloadTimeMs": 1500,
+      "isThrower": false,
+      "movementLabels": [
+        "高速"
+      ],
+      "rangeLabels": [
+        "長距離"
+      ],
+      "reloadLabels": [
+        "普通"
+      ],
+      "statLabelSourceID": "gamewith-jp-brawler-list",
+      "battleStartHitpoints": 7800,
+      "ammoCount": 3,
+      "hasTimeBasedSuperCharge": false
+    }
+  ]
+}
